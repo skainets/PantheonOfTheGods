@@ -1,0 +1,30 @@
+pure_godhood_effect = {
+	remove_trait = callous
+	remove_trait = sadistic
+	remove_trait = greedy
+	remove_trait = wrathful
+	remove_trait = impatient
+	remove_trait = arrogant
+	remove_trait = deceitful
+
+	remove_trait = fallen_deity
+
+	add_trait = humble
+	add_trait = generous
+	add_trait = compassionate
+}
+
+fallen_godhood_effect = {
+	remove_trait = humble
+	remove_trait = generous
+	remove_trait = compassionate
+	remove_trait = honest
+	remove_trait = patient
+	remove_trait = calm
+
+	remove_trait = pure_deity
+
+	add_trait = sadistic
+	add_trait = wrathful
+	add_trait = arrogant
+}

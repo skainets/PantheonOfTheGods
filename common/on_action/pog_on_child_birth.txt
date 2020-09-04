@@ -1,0 +1,243 @@
+# called for the newborn child
+# scope:child is the new born character
+# scope:mother is the pregnant mother
+# scope:father is the family father (not the biological)
+# scope:real_father is the biological father
+# scope:is_bastard, true if a known bastard
+on_birth_child = {
+	events = {
+	}
+	effect = {
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						has_trait = pure_deity
+					}
+					scope:mother = {
+						has_trait = pure_deity
+					}
+				}
+			}
+			add_trait = pure_deity
+		}
+
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						has_trait = fallen_deity
+					}
+					scope:mother = {
+						has_trait = fallen_deity
+					}
+				}
+			}
+			add_trait = fallen_deity
+		}
+
+		if = {
+			limit = {
+				AND = {
+					scope:real_father = {
+						has_trait = demi_deity
+					}
+					scope:mother = {
+						has_trait = demi_deity
+					}
+				}
+			}
+			add_trait = demi_deity
+		}
+
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						scope:real_father = {
+							AND = {
+								NOT = { has_trait = demi_deity }
+								NOT = { has_trait = pure_deity }
+								NOT = { has_trait = fallen_deity }
+							}
+						}
+						scope:mother = {
+							has_trait = demi_deity
+						}
+					}
+					AND = {
+						scope:real_father = {
+							has_trait = demi_deity 
+						}
+						scope:mother = {
+							AND = {
+								NOT = { has_trait = demi_deity }
+								NOT = { has_trait = pure_deity }
+								NOT = { has_trait = fallen_deity }
+							}
+						}
+					}
+				}
+			}
+			add_trait = blood_of_gods
+		}
+
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						scope:real_father = {
+							has_trait = pure_deity
+						}
+						scope:mother = {
+							has_trait = demi_deity
+						}
+					}
+					AND = {
+						scope:real_father = {
+							has_trait = demi_deity
+						}
+						scope:mother = {
+							has_trait = pure_deity
+						}
+					}
+				}
+			}
+			random = {
+				50 = {
+					add_trait = demi_deity
+				}
+				50 = {
+					add_trait = pure_deity
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						scope:real_father = {
+							has_trait = fallen_deity
+						}
+						scope:mother = {
+							has_trait = demi_deity
+						}
+					}
+					AND = {
+						scope:real_father = {
+							has_trait = demi_deity
+						}
+						scope:mother = {
+							has_trait = fallen_deity
+						}
+					}
+				}
+			}
+			random_list = {
+				50 = {
+					add_trait = demi_deity
+				}
+				50 = {
+					add_trait = fallen_deity
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						scope:real_father = {
+							AND = {
+								NOT = { has_trait = demi_deity }
+								NOT = { has_trait = pure_deity }
+								NOT = { has_trait = fallen_deity }
+							}
+						}
+						scope:mother = {
+							has_trait = fallen_deity
+						}
+					}
+					AND = {
+						scope:real_father = {
+							has_trait = fallen_deity 
+						}
+						scope:mother = {
+							AND = {
+								NOT = { has_trait = demi_deity }
+								NOT = { has_trait = pure_deity }
+								NOT = { has_trait = fallen_deity }
+							}
+						}
+					}
+				}
+			}
+			add_trait = demi_deity
+		}
+
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						scope:real_father = {
+							AND = {
+								NOT = { has_trait = demi_deity }
+								NOT = { has_trait = pure_deity }
+								NOT = { has_trait = fallen_deity }
+							}
+						}
+						scope:mother = {
+							has_trait = pure_deity
+						}
+					}
+					AND = {
+						scope:real_father = {
+							has_trait = pure_deity 
+						}
+						scope:mother = {
+							AND = {
+								NOT = { has_trait = demi_deity }
+								NOT = { has_trait = pure_deity }
+								NOT = { has_trait = fallen_deity }
+							}
+						}
+					}
+				}
+			}
+			add_trait = demi_deity
+		}
+
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						scope:real_father = {
+							has_trait = pure_deity
+						}
+						scope:mother = {
+							has_trait = fallen_deity
+						}
+					}
+					AND = {
+						scope:real_father = {
+							has_trait = fallen_deity 
+						}
+						scope:mother = {
+							has_trait = pure_deity
+						}
+					}
+				}
+			}
+			random_list = {
+				50 = {
+					add_trait = fallen_deity
+				}
+				50 = {
+					add_trait = pure_deity
+				}
+			}
+		}
+
+	}
+}

@@ -1,0 +1,216 @@
+@pos_compat_mortal_enemies = -100
+
+pure_deity = {
+	index = 610
+
+	opposites = {
+		fallen_deity
+	}
+
+	diplomacy = 20
+	intrigue = 20
+	stewardship = 20
+	martial = 20
+
+	immortal = yes
+	health = 10
+
+	good = yes
+	physical = yes
+
+	opposite_opinion = -1000
+	same_opinion = 20
+
+	ai_rationality = dominant_positive_ai_value
+	monthly_lifestyle_xp_gain_mult = 1
+
+	compatibility = {
+		fallen_deity = @pos_compat_mortal_enemies
+	}
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = this
+					is_female = yes
+				}
+				desc = trait_pure_goddess
+			}
+			desc = trait_pure_god
+		}
+	}
+	
+}
+
+fallen_deity = {
+	index = 611
+
+	opposites = {
+		pure_deity
+	}
+
+	diplomacy = 20
+	intrigue = 20
+	stewardship = 20
+	martial = 20
+
+	immortal = yes
+	health = 10
+
+	good = yes
+	physical = yes
+
+	opposite_opinion = -1000
+	same_opinion = 20
+
+	ai_rationality = dominant_positive_ai_value
+	monthly_lifestyle_xp_gain_mult = 1
+
+	compatibility = {
+		pure_deity = @pos_compat_mortal_enemies
+	}
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = this
+					is_female = yes
+				}
+				desc = trait_fallen_goddess
+			}
+			desc = trait_fallen_god
+		}
+	}
+	
+}
+
+demi_deity = {
+	index = 612
+
+	diplomacy = 10
+	intrigue = 10
+	stewardship = 10
+	martial = 10
+
+	health = 10
+
+	good = yes
+	physical = yes
+
+	ai_rationality = dominant_positive_ai_value
+	monthly_lifestyle_xp_gain_mult = 0.3
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = this
+					is_female = yes
+				}
+				desc = trait_demi_goddess
+			}
+			desc = trait_demi_god
+		}
+	}
+}
+
+blood_of_gods = {
+	index = 613
+
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 5
+	martial = 5
+
+	health = 3
+
+	genetic = yes
+	good = yes
+	physical = yes
+
+	ai_rationality = dominant_positive_ai_value
+	monthly_lifestyle_xp_gain_mult = 0.3
+}
+
+god_of_light_1 = {
+	index = 614
+
+	good = yes
+
+	group = god_of_light
+	level = 1
+}
+
+god_of_light_2 = {
+	index = 615
+
+	good = yes
+
+	group = god_of_light
+	level = 2
+}
+
+god_of_light_3 = {
+	index = 616
+
+	good = yes
+
+	group = god_of_light
+	level = 3
+}
+
+god_of_darkness_1 = {
+	index = 617
+
+	good = yes
+
+	group = god_of_darkness
+	level = 1
+}
+
+god_of_darkness_2 = {
+	index = 618
+
+	good = yes
+
+	group = god_of_darkness
+	level = 2
+}
+
+god_of_darkness_3 = {
+	index = 619
+
+	good = yes
+
+	group = god_of_darkness
+	level = 3
+}
+
+undying = {
+	index = 620
+	
+	immortal = yes
+	health = 10
+}
+
+disciple_pure = {
+	index = 621
+	
+	opposites = {
+		fallen_deity
+		disciple_fallen
+	}
+}
+
+disciple_fallen = {
+	index = 622
+
+	opposites = {
+		pure_deity
+		disciple_pure
+	}
+
+	opposite_opinion = -1000
+}

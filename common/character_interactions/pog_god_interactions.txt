@@ -1,0 +1,370 @@
+disciple_interaction = {
+    category = interaction_category_friendly
+    desc = disciple_interaction_desc
+    common_interaction = yes
+    interface_priority = 70
+
+    scheme = disciple
+
+    send_name = START_SCHEME
+    ignores_pending_interaction_block = yes
+
+    auto_accept = yes
+
+    is_shown = {
+        NOT = { scope:recipient = scope:actor }
+        scope:actor = {
+          OR = {
+            has_trait = fallen_deity
+            has_trait = pure_deity
+          }
+        }
+        scope:recipient = {
+          OR = {
+            NOT = { has_trait = fallen_deity }
+            NOT = { has_trait = pure_deity }
+            NOT = { has_trait = blood_of_gods }
+            NOT = { has_trait = demi_deity }
+          }
+        }
+    }
+
+    is_valid_showing_failures_only = {
+      scope:actor = {
+        can_start_scheme = {
+          type = disciple
+          target = scope:recipient
+        }
+      }
+    }
+
+    desc = {
+      triggered_desc = {
+        trigger = {
+          scope:actor = {
+            NOT = { is_at_war_with = scope:recipient }
+            can_start_scheme = {
+              type = disciple
+              target = scope:recipient
+            }
+          }
+        }
+        desc = scheme_interaction_tt_disciple_approved
+      }
+    }
+
+    on_accept = {
+      scope:actor = {
+        stress_impact = {
+          shy = medium_stress_impact_gain
+        }
+      }
+      hidden_effect = {
+        scope:actor = {
+          send_interface_toast = {
+            title = disciple_interaction_notification
+  
+            left_icon = scope:actor			
+            right_icon = scope:recipient
+  
+            start_scheme = {
+              type = disciple
+              target = scope:recipient
+            }
+          }
+        }
+        if = { #Stubborness effect
+          limit = {
+            scope:recipient = {
+              has_trait = stubborn
+            }
+          }
+          scope:actor = {
+            random_scheme = {
+              limit = {
+                scheme_type = disciple
+                scheme_target = scope:recipient
+              }
+              scheme_target = {
+                random_list = {
+                  20 = {
+                    set_variable = {
+                      name = recipient_stubborness_scheme
+                      value = -5
+                    }
+                  }
+                  20 = {
+                    set_variable = {
+                      name = recipient_stubborness_scheme
+                      value = -10
+                    }
+                  }
+                  20 = {
+                    set_variable = {
+                      name = recipient_stubborness_scheme
+                      value = -15
+                    }
+                  }
+                  20 = {
+                    set_variable = {
+                      name = recipient_stubborness_scheme
+                      value = -20
+                    }
+                  }
+                  20 = {
+                    set_variable = {
+                      name = recipient_stubborness_scheme
+                      value = -25
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+     }
+  }
+}
+
+apotheosis_interaction = {
+	category = interaction_category_deity
+
+	desc = apotheosis_interaction_desc
+
+	is_shown = {
+		scope:recipient = {
+      is_adult = yes
+      OR = {
+        has_trait = disciple_pure
+        has_trait = disciple_fallen
+      }
+		}
+		scope:actor = {
+			OR = {
+        has_trait = fallen_deity
+        has_trait = pure_deity
+			}
+		}
+	}
+
+	cost = {
+		piety = 500
+	}
+	
+	on_accept = {
+		scope:actor = {
+			send_interface_message = {
+				type = event_generic_neutral
+				title = msg_apotheosis_interaction_title
+        desc = msg_apotheosis_interaction_desc
+				right_icon = scope:recipient
+			}
+		}
+		scope:recipient = {
+      remove_trait = disciple_fallen
+      remove_trait = disciple_pure
+      remove_trait = demi_deity
+      remove_trait = undying
+
+			if = {
+				add_opinion = {
+					target = scope:actor
+					modifier = grateful_opinion
+					opinion = 50
+				}
+			}
+      if = {
+        limit = {
+          scope:actor = { has_trait = fallen_deity }
+        }
+        add_trait = fallen_deity
+      }
+      else = {
+        add_trait = pure_deity
+      }
+		}
+	}
+	
+	auto_accept = yes
+}
+
+bless_interaction = {
+	category = interaction_category_deity
+
+	desc = bless_interaction_desc
+
+	is_shown = {
+    scope:recipient = {
+      NOR = {
+        has_trait = fallen_deity
+        has_trait = pure_deity
+        has_trait = demi_deity
+        has_trait = undying
+        has_character_flag = pog_blessed_mortal
+      }
+    }
+		scope:actor = {
+			OR = {
+        has_trait = fallen_deity
+        has_trait = pure_deity
+			}
+		}
+	}
+
+	cost = {
+		piety = 250
+	}
+	
+	on_accept = {
+		scope:recipient = {
+      random_list = {
+        50 = {
+          add_trait = intellect_good_1
+        }
+        30 = {
+          add_trait = intellect_good_2
+        }
+        20 = {
+          add_trait = intellect_good_3
+        }
+      }
+
+      random_list = {
+        50 = {
+          add_trait = physique_good_1
+        }
+        30 = {
+          add_trait = physique_good_2
+        }
+        20 = {
+          add_trait = physique_good_3
+        }
+      }
+
+      add_health = 3
+
+			if = {
+				add_opinion = {
+					target = scope:actor
+					modifier = grateful_opinion
+					opinion = 25
+				}
+      }
+      add_character_flag = { flag = pog_blessed_mortal }
+    }
+  }
+	
+	auto_accept = yes
+}
+
+curse_interaction = {
+	category = interaction_category_deity
+
+	desc = curse_interaction_desc
+
+	is_shown = {
+    scope:recipient = {
+      NOR = {
+        has_trait = fallen_deity
+        has_trait = pure_deity
+        has_trait = demi_deity
+        has_trait = undying
+        has_character_flag = pog_cursed_mortal
+      }
+    }
+		scope:actor = {
+			OR = {
+        has_trait = fallen_deity
+        has_trait = pure_deity
+			}
+		}
+	}
+
+	cost = {
+		piety = 250
+	}
+	
+	on_accept = {
+		scope:recipient = {
+      random_list = {
+        50 = {
+          add_trait = intellect_bad_1
+        }
+        30 = {
+          add_trait = intellect_bad_2
+        }
+        20 = {
+          add_trait = intellect_bad_3
+        }
+      }
+
+      random_list = {
+        50 = {
+          add_trait = physique_bad_1
+        }
+        30 = {
+          add_trait = physique_bad_2
+        }
+        20 = {
+          add_trait = physique_bad_3
+        }
+      }
+
+      add_health = -3
+
+			if = {
+				add_opinion = {
+					target = scope:actor
+					opinion = -35
+				}
+      }
+      add_character_flag = { flag = pog_cursed_mortal }
+    }
+  }
+	
+	auto_accept = yes
+}
+
+undying_interaction = {
+	category = interaction_category_deity
+
+	desc = undying_interaction_desc
+
+	is_shown = {
+    scope:recipient = {
+      NOR = {
+        has_trait = fallen_deity
+        has_trait = pure_deity
+        has_trait = demi_deity
+        has_trait = undying
+      }
+      has_character_flag = pog_blessed_mortal
+    }
+		scope:actor = {
+			OR = {
+        has_trait = fallen_deity
+        has_trait = pure_deity
+			}
+		}
+	}
+
+	cost = {
+		piety = 350
+	}
+	
+	on_accept = {
+		scope:recipient = {
+      add_trait = undying
+
+			if = {
+				add_opinion = {
+					target = scope:actor
+					modifier = grateful_opinion
+					opinion = 35
+				}
+      }
+    }
+  }
+	
+	auto_accept = yes
+}

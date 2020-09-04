@@ -1,0 +1,6 @@
+﻿l_english:
+ disciple:0 "Disciple"
+ disciple_desc:0 "Creating the ultimate disciple takes time. Effort must be put in to garner the zeal of a mortal. Perhaps if their devotions reaches the grandest heights, they might become a god themself?"
+ disciple_action:0 "Disciple"
+ DISCIPLE_SUCCESS_DESC:0 "[recipient.GetCharacter.GetFirstNameNoTooltip] will become your fervent disciple."
+ attempted_discipleship:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] has already attempted discipleship on [recipient.GetCharacter.GetFirstNameNoTooltip]."
