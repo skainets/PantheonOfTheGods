@@ -10,7 +10,7 @@ pog_god_events.0001 = {
 		character = root
 		animation = personality_honorable
 	}
-	
+
 	trigger = {
 		is_ai = no
 		is_landed = yes
@@ -391,5 +391,36 @@ pog_god_events.1000 = {
 
 	option = {
 		name = pog_god_events.1000.a
+	}
+}
+
+## Coming of age god events
+
+pog_god_events.1001 = {
+	hidden = yes
+
+	trigger = {
+		OR = {
+			has_trait = young_fallen_deity
+			has_trait = young_pure_deity
+		}
+	}
+
+	immediate = {
+		root = {
+			if = {
+				limit = {
+					has_trait = young_fallen_deity
+				}
+				remove_trait = young_fallen_deity
+				add_trait = fallen_deity
+				effect = { set_immortal_age = 18 }
+			}
+			else = {
+				remove_trait = young_pure_deity
+				add_trait = pure_deity
+				effect = { set_immortal_age = 18 }
+			}
+		}
 	}
 }

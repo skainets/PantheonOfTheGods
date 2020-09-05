@@ -127,7 +127,7 @@ disciple_interaction = {
 }
 
 apotheosis_interaction = {
-	category = interaction_category_deity
+	category = interaction_category_friendly
 
 	desc = apotheosis_interaction_desc
 
@@ -189,7 +189,7 @@ apotheosis_interaction = {
 }
 
 bless_interaction = {
-	category = interaction_category_deity
+	category = interaction_category_friendly
 
 	desc = bless_interaction_desc
 
@@ -258,7 +258,7 @@ bless_interaction = {
 }
 
 curse_interaction = {
-	category = interaction_category_deity
+	category = interaction_category_friendly
 
 	desc = curse_interaction_desc
 

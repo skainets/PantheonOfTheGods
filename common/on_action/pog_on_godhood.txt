@@ -1,0 +1,20 @@
+random_yearly_playable_pulse = {
+	events = {
+		pog_god_events.0001
+	}
+}
+
+# random_yearly_everyone_pulse = {
+# 	events = {
+# 		# pog_god_events.1001
+# 	}
+# }
+
+on_16th_birthday = {
+	trigger = { age = 16 }
+	
+	events = {
+		pog_god_events.1001
+	}
+}
+
