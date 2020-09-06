@@ -72,6 +72,7 @@ pog_religion_culture.0001 = {
 
         root = {
             set_character_faith_with_conversion  = faith:pure_abrahamic_pantheon
+            set_culture = culture:pure_abrahamic
         }
     }
     option = {
@@ -80,6 +81,7 @@ pog_religion_culture.0001 = {
 
         root = {
             set_character_faith_with_conversion  = faith:pure_celtic_pantheon
+            set_culture = culture:pure_celtic
         }
     }
     option = {
@@ -88,6 +90,7 @@ pog_religion_culture.0001 = {
 
         root = {
             set_character_faith_with_conversion  = faith:pure_slavic_pantheon
+            set_culture = culture:pure_slavic
         }
     }
     option = {
@@ -96,6 +99,7 @@ pog_religion_culture.0001 = {
 
         root = {
             set_character_faith_with_conversion = faith:pure_norse_pantheon
+            set_culture = culture:pure_norse
         }
     }
     option = {
@@ -104,6 +108,7 @@ pog_religion_culture.0001 = {
 
         root = {
             set_character_faith_with_conversion = faith:pure_eastern_pantheon
+            set_culture = culture:pure_eastern
         }
     }
     option = {
@@ -112,6 +117,7 @@ pog_religion_culture.0001 = {
 
         root = {
             set_character_faith_with_conversion = faith:pure_hindu_pantheon
+            set_culture = culture:pure_hindu
         }
     }
     option = {
@@ -120,6 +126,7 @@ pog_religion_culture.0001 = {
 
         root = {
             set_character_faith_with_conversion = faith:pure_egyptian_pantheon
+            set_culture = culture:pure_egyptian
         }
     }
     option = {
@@ -128,6 +135,7 @@ pog_religion_culture.0001 = {
 
         root = {
             set_character_faith_with_conversion = faith:pure_persian_pantheon
+            set_culture = culture:pure_persian
         }
     }
     option = {
@@ -136,6 +144,7 @@ pog_religion_culture.0001 = {
 
         root = {
             set_character_faith_with_conversion = faith:pure_african_pantheon
+            set_culture = culture:pure_african
         }
     }
     option = {
@@ -173,6 +182,7 @@ pog_religion_culture.0002 = {
 
         root = {
             set_character_faith_with_conversion = faith:fallen_abrahamic_pantheon
+            set_culture = culture:fallen_abrahamic
         }
     }
     option = {
@@ -181,6 +191,7 @@ pog_religion_culture.0002 = {
 
         root = {
             set_character_faith_with_conversion = faith:fallen_celtic_pantheon
+            set_culture = culture:fallen_celtic
         }
     }
     option = {
@@ -189,6 +200,7 @@ pog_religion_culture.0002 = {
 
         root = {
             set_character_faith_with_conversion = faith:fallen_slavic_pantheon
+            set_culture = culture:fallen_slavic
         }
     }
     option = {
@@ -197,6 +209,7 @@ pog_religion_culture.0002 = {
 
         root = {
             set_character_faith_with_conversion = faith:fallen_norse_pantheon
+            set_culture = culture:fallen_norse
         }
     }
     option = {
@@ -205,6 +218,7 @@ pog_religion_culture.0002 = {
 
         root = {
             set_character_faith_with_conversion = faith:fallen_eastern_pantheon
+            set_culture = culture:fallen_eastern
         }
     }
     option = {
@@ -213,6 +227,7 @@ pog_religion_culture.0002 = {
 
         root = {
             set_character_faith_with_conversion = faith:fallen_hindu_pantheon
+            set_culture = culture:fallen_hindu
         }
     }
     option = {
@@ -221,6 +236,7 @@ pog_religion_culture.0002 = {
 
         root = {
             set_character_faith_with_conversion = faith:fallen_egyptian_pantheon
+            set_culture = culture:fallen_egyptian
         }
     }
     option = {
@@ -229,6 +245,7 @@ pog_religion_culture.0002 = {
 
         root = {
             set_character_faith_with_conversion = faith:fallen_persian_pantheon
+            set_culture = culture:fallen_persian
         }
     }
     option = {
@@ -237,6 +254,7 @@ pog_religion_culture.0002 = {
 
         root = {
             set_character_faith_with_conversion = faith:fallen_african_pantheon
+            set_culture = culture:fallen_african
         }
     }
     option = {

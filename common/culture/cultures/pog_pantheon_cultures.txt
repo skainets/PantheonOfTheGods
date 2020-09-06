@@ -1,0 +1,888 @@
+pantheon_abrahamic_group = {
+    graphical_cultures = {
+        latin_group_coa_gfx
+        western_coa_gfx
+        mediterranean_building_gfx
+        western_clothing_gfx
+        western_unit_gfx
+    }
+    mercenary_names = {
+        { name = "mercenary_company_bull" coat_of_arms = "mc_bull" }
+    }
+
+    pure_abrahamic = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Malachi Douma Micah Gibborim Sabaoth Rampel Valoel Adimus Mendrion Vretiel Ezekiel Machidie lVretiel
+            Jerahmeel Harahel Seraph Sachael Humiel Pravuil Madan Jeduthun Semyaza Raphael Uzziel Iaoth Zuriel
+            Samuel Yofiel Anpiel Xaphan Asmodel Boel Inias Michael Caphriel Hadraniel Tearney Hadraniel Mydaiel
+            Cathetel Labbiel Kakabel Jael Gagiel Zachariah Damabiath Yabbashael Abbadon Jeduthun Sareash Aphaeleon
+            Theo Azriel Munkar Aralim Chasan Jaoel Zephon Erelim Abraxos Inian Telantes Zephon Erelim Machidiel
+        }
+
+        female_names = {
+            Valoel Cadriel Asheal Hadraniel Ophiel Isda Haziel Madan Armaita Elemiah Sopheriel Domiel Adelphi Coretha
+            Ephemera Iaoel Exousia Coretha Sopheriel Armaita Iaoel Exousia Sansanvi Sarakiel Morael Semyaza Dahlia
+            Sofiel Gabriela Gezuriya Minda Sraosha Esther Suriela Portia Aeshma Adellum Nemamiah Phounebiel Amnayel
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            10 = mediterranean
+        }
+    }
+
+    fallen_abrahamic = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Gazgomoth Dralruzach Zazgaath Drirolin Darnoluth Ongromas Thozzaxath Rorthrazath Zigmidoz Bag'thudan
+            Seg'thorath Erthruzoth Trelgonneth Zorgorath Zolvonuuth Kolrith Ogmoz Solmoman Valmollach Thostrixan
+            Salvotore Geulimja Zorander Malum Crowley Balthier Cloven Kieran Belzebob Romulus Upir Arlin Mitrik
+            Blight Prysm Sikaeth Nolges Gisino Ecokno Khedni Maducru Dipokho Neglah Rhamokh Pipume Aidnal
+        }
+
+        female_names = {
+            Cattora Bwyneva Nymnila Yservielle Nymnessa Nemorlenne Wineth Areagne Glismoda Cahrlea Jynysha
+            Amalgundis Feenja Chlodoswintha Amalaswinth Hunila Xislea Emalia Alwina Sunilda Kelaris Amalfriede
+            Heva Lucienne Amalaswintha Garsendis Amalburga Chlotsuintha Melisenda Melle Gelvira Liuva Alwina
+            Teja Erelieva Gaatha Sarnila Avagisa Attala Elisaweta Liuva Avagisa Rautgundis Amalgard Lucienne
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            10 = mediterranean
+        }
+    }
+}
+
+pantheon_celtic_group = {
+    graphical_cultures = {
+        western_coa_gfx
+        western_building_gfx
+        western_clothing_gfx
+        western_unit_gfx
+    }
+    mercenary_names = {
+        { name = "mercenary_company_bull" coat_of_arms = "mc_bull" }
+    }
+
+    pure_celtic = {
+        color = { 0.95 0.95 0.75 }
+
+        graphical_cultures = {
+            scottish_coa_gfx
+            northern_clothing_gfx
+        }
+
+        male_names = {
+            Murchú Odhrán Felimid Maoilín Bairre Ainníleas Éigneachán Anraoi Pádhraic Agaistín Muirin Ciothruadh Manchán
+            Ristéard Séadna Aodh Cearbhall Bearach Flann Pádraig Finghin Maolcholm Finguine Cadhan Aona Úaithne Domhnall
+            Séaonin Donnchadh Oilibhéar Cosnamhach Liadhnán Maodhóg Iósaf Glaisne Connor Eamonn Lochlainn Toirleach
+            Aibhne Colm Niallán Uaitéar Murchú Echmhílidh Donnchadh Cruimín Coilean Daibhi Toimilin Uaithne Muirgheas
+            Naoise Cainneach Coireall Felimid Glasáin Chlaoin Felimid Féthmac Liber Tuama Uilliam Féthchú Earcán Ciarán
+        }
+
+        female_names = {
+            Eirnín Eirnín Moina Cairrean Eilise Órla Eilish Béibhinn Achall Aoibheann Dearlú Brónach Bairrionn Éibhleann
+            Ierne Róisín Dearlú Sárnait Saorfhlaith Aithche Suaibhseach Feidhelm Caitlín Isibéal Deidre Caomhnait Aoibheann
+            Líoch Scáthach Cúach Mairona Taillte Maleia Éabha Ceallach Muireann Banbha Muireacht Ana Aodhamair Annábla
+            Ceara Onóra Teafa Suanach Eimear Aoife Caoimhe Clídna Aithche Feidhelm Rónait Dunla Eistir Dearbhfhorghaill
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            5 = caucasian_blond
+            30 = caucasian_ginger
+            35 = caucasian_brown_hair
+            30 = caucasian_dark_hair
+        }
+    }
+
+    fallen_celtic = {
+        color = { 0.95 0.95 0.75 }
+
+        graphical_cultures = {
+            scottish_coa_gfx
+            northern_clothing_gfx
+        }
+
+        male_names = {
+            Murchú Odhrán Felimid Maoilín Bairre Ainníleas Éigneachán Anraoi Pádhraic Agaistín Muirin Ciothruadh Manchán
+            Ristéard Séadna Aodh Cearbhall Bearach Flann Pádraig Finghin Maolcholm Finguine Cadhan Aona Úaithne Domhnall
+            Séaonin Donnchadh Oilibhéar Cosnamhach Liadhnán Maodhóg Iósaf Glaisne Connor Eamonn Lochlainn Toirleach
+            Aibhne Colm Niallán Uaitéar Murchú Echmhílidh Donnchadh Cruimín Coilean Daibhi Toimilin Uaithne Muirgheas
+            Naoise Cainneach Coireall Felimid Glasáin Chlaoin Felimid Féthmac Liber Tuama Uilliam Féthchú Earcán Ciarán
+        }
+
+        female_names = {
+            Eirnín Eirnín Moina Cairrean Eilise Órla Eilish Béibhinn Achall Aoibheann Dearlú Brónach Bairrionn Éibhleann
+            Ierne Róisín Dearlú Sárnait Saorfhlaith Aithche Suaibhseach Feidhelm Caitlín Isibéal Deidre Caomhnait Aoibheann
+            Líoch Scáthach Cúach Mairona Taillte Maleia Éabha Ceallach Muireann Banbha Muireacht Ana Aodhamair Annábla
+            Ceara Onóra Teafa Suanach Eimear Aoife Caoimhe Clídna Aithche Feidhelm Rónait Dunla Eistir Dearbhfhorghaill
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            5 = caucasian_blond
+            30 = caucasian_ginger
+            35 = caucasian_brown_hair
+            30 = caucasian_dark_hair
+        }
+    }
+}
+
+pantheon_slavic_group = {
+    graphical_cultures = {
+        west_slavic_group_coa_gfx
+        western_coa_gfx
+        western_building_gfx
+        western_clothing_gfx
+        eastern_unit_gfx
+    }
+    mercenary_names = {
+        { name = "mercenary_company_bull" coat_of_arms = "mc_bull" }
+    }
+
+    pure_slavic = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Zlatko Bozhin Lado Ctislav Sudanek Drazenko Leszek Drazenko Mladen Zivko Berislav Blagoy Kazimierz Jugoslav
+            Ludomil Prodan Varban Vidoslav Ventsislav Milon Bosko Vacek Davor Ljubodrag Goran Vladica Lechoslaw Biljan
+            Svetoslav Radik Jur Jadranko Branimir Svetlin Nicholai Stoyan Vukan Svatoslav Luka Radomir Velin Bora Jaromer
+            Radosvet Rosticek Sudanek Bratoljub Vukasin Wszebor Radomer Zlatomir Godzimir Vujadin Goran Srecko Miladin
+        }
+
+        female_names = {
+            Mladuska Stanuska Bozhidara Bilyana Dobyslawa Iva Zoja Sanya Veruska Mirjana Radmila Mladenka Snjezana Berislava
+            Tsvetanka Preslava Jasoslava Rostuska Sudanka Valeska Tsviata Stanicka Tjeha Janina Nicholya Mateja Zelislava
+            Blagica Bistra Tsvetanka Vena Radochna Desa Zrinka Velmira Vela Ratka Elina Snjezana Veruska Kvetuska Rostislava Mara
+            Miglena Bojana Jalena Kazimiera Dobra Sobena Alina Zivuska Kvetka Dusicka Iryna Drahomira Svetlanka Zorana Katia Zlatina
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            45 = caucasian_blond
+            5 = caucasian_ginger
+            35 = caucasian_brown_hair
+            15 = caucasian_dark_hair
+        }
+    }
+
+    fallen_slavic = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Zlatko Bozhin Lado Ctislav Sudanek Drazenko Leszek Drazenko Mladen Zivko Berislav Blagoy Kazimierz Jugoslav
+            Ludomil Prodan Varban Vidoslav Ventsislav Milon Bosko Vacek Davor Ljubodrag Goran Vladica Lechoslaw Biljan
+            Svetoslav Radik Jur Jadranko Branimir Svetlin Nicholai Stoyan Vukan Svatoslav Luka Radomir Velin Bora Jaromer
+            Radosvet Rosticek Sudanek Bratoljub Vukasin Wszebor Radomer Zlatomir Godzimir Vujadin Goran Srecko Miladin
+        }
+
+        female_names = {
+            Mladuska Stanuska Bozhidara Bilyana Dobyslawa Iva Zoja Sanya Veruska Mirjana Radmila Mladenka Snjezana Berislava
+            Tsvetanka Preslava Jasoslava Rostuska Sudanka Valeska Tsviata Stanicka Tjeha Janina Nicholya Mateja Zelislava
+            Blagica Bistra Tsvetanka Vena Radochna Desa Zrinka Velmira Vela Ratka Elina Snjezana Veruska Kvetuska Rostislava Mara
+            Miglena Bojana Jalena Kazimiera Dobra Sobena Alina Zivuska Kvetka Dusicka Iryna Drahomira Svetlanka Zorana Katia Zlatina
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            45 = caucasian_blond
+            5 = caucasian_ginger
+            35 = caucasian_brown_hair
+            15 = caucasian_dark_hair
+        }
+    }
+}
+
+pantheon_norse_group = {
+    graphical_cultures = {
+        western_coa_gfx
+        western_building_gfx
+        northern_clothing_gfx
+        northern_unit_gfx
+    }
+    mercenary_names = {
+        { name = "mercenary_company_bull" coat_of_arms = "mc_bull" }
+    }
+
+    pure_norse = {
+        color = { 0.95 0.95 0.75 }
+
+        graphical_cultures = {
+            norse_coa_gfx
+        }
+
+        male_names = {
+            Oddbjørn Nikolai Ingvald Hallgrim Leif Vidar Ale Alfr Alfgeir Anders Anlaufr Anundr ArnbjO_rn Arngrimr Arni Arnfast AsbjO_rn Bagge Baldr Barid Bengt Bersi Bertil Birger BjO_rn Bo Borkvard Botulfr Bragi BuT_li
+            Dag Dan Dyre Eilif Egill Emund Einarr Eirikr Eskild Falki Faste Filip Fredrik Frirek FroT_i Freyr Folki Gandalfr Geirr Georg Gnupa Gorm Greger Grimr GuT_friT_ GuT_mundr GuT_rO_T_r Gunnarr Hakon Halsten Haraldr Haukr Helgi
+            Hemming Holmger Hrafn Hrolfr Hrane HE_steinn Hjalmar HroT_gar HroT_ulfr HrO_rekr Hysing IngO_lfr Ingemar Ingjald Ivar Jedvard Jon Karl Kettil Kettilmund Kjartan Klas Knut Kol KolbjO_rn Magnus Markus
+            Mats Nils Niklas Oddr Ofeig Olafr Ormr Ottarr Refr Refil Ragnarr Rikulfr RO_gnvaldr Skuli Snorri SigbjO_rn Sigtrygg SigurT_r StarkaT_r Steinn Sturla StyrbjO_rn Styrkar SumarliT_i Suni Sveinn
+            Sverker SE_mundr SO_lvi SO_rkver Tjudmund Toke Tolir T_orbjO_rn T_orfinn T_orbrandr T_ordr T_orgil T_orsteinn T_orolfr Toste Totil Tryggve Tyke Ulfr Vagn Valdemar A_ke Yngvar O_rvar O_ysteinn
+        }
+
+        female_names = {
+            Aleta Alfhildr AlfriT_ AlvO_r Anna Asa Aslaug Asta Astrid Beata Birgitta BjO_rg Bodil Bothildr Cecilia
+            Edla Elin Elisabet Freyja GerT_r GloT_ Grima Gunnhildr Gurli GuT_run Gyla GyriT_ GyT_a Hafrid Halla Helena Holmfrid
+            Iliana Inga Ingfrid IngibjO_rg IngjerT_r Ingrid Karin Katarina Kraka Kristina Linda Maer
+            MalmfriT_ Margareta Maria Rikissa RO_gnfriT_ RO_gnhildr Saga Sara Sif Sigrid Skuld Sofia
+            Svanhildr Ulfhildr Vigdis Ylva Yrsa T_ora T_ordis T_yra Freydi_s
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            70 = caucasian_northern_blond
+            15 = caucasian_northern_ginger
+            10 = caucasian_northern_brown_hair
+            5 = caucasian_northern_dark_hair
+        }
+    }
+
+    fallen_norse = {
+        color = { 0.95 0.95 0.75 }
+
+        graphical_cultures = {
+            norse_coa_gfx
+        }
+
+        male_names = {
+            Oddbjørn Nikolai Ingvald Hallgrim Leif Vidar Ale Alfr Alfgeir Anders Anlaufr Anundr ArnbjO_rn Arngrimr Arni Arnfast AsbjO_rn Bagge Baldr Barid Bengt Bersi Bertil Birger BjO_rn Bo Borkvard Botulfr Bragi BuT_li
+            Dag Dan Dyre Eilif Egill Emund Einarr Eirikr Eskild Falki Faste Filip Fredrik Frirek FroT_i Freyr Folki Gandalfr Geirr Georg Gnupa Gorm Greger Grimr GuT_friT_ GuT_mundr GuT_rO_T_r Gunnarr Hakon Halsten Haraldr Haukr Helgi
+            Hemming Holmger Hrafn Hrolfr Hrane HE_steinn Hjalmar HroT_gar HroT_ulfr HrO_rekr Hysing IngO_lfr Ingemar Ingjald Ivar Jedvard Jon Karl Kettil Kettilmund Kjartan Klas Knut Kol KolbjO_rn Magnus Markus
+            Mats Nils Niklas Oddr Ofeig Olafr Ormr Ottarr Refr Refil Ragnarr Rikulfr RO_gnvaldr Skuli Snorri SigbjO_rn Sigtrygg SigurT_r StarkaT_r Steinn Sturla StyrbjO_rn Styrkar SumarliT_i Suni Sveinn
+            Sverker SE_mundr SO_lvi SO_rkver Tjudmund Toke Tolir T_orbjO_rn T_orfinn T_orbrandr T_ordr T_orgil T_orsteinn T_orolfr Toste Totil Tryggve Tyke Ulfr Vagn Valdemar A_ke Yngvar O_rvar O_ysteinn
+        }
+
+        female_names = {
+            Aleta Alfhildr AlfriT_ AlvO_r Anna Asa Aslaug Asta Astrid Beata Birgitta BjO_rg Bodil Bothildr Cecilia
+            Edla Elin Elisabet Freyja GerT_r GloT_ Grima Gunnhildr Gurli GuT_run Gyla GyriT_ GyT_a Hafrid Halla Helena Holmfrid
+            Iliana Inga Ingfrid IngibjO_rg IngjerT_r Ingrid Karin Katarina Kraka Kristina Linda Maer
+            MalmfriT_ Margareta Maria Rikissa RO_gnfriT_ RO_gnhildr Saga Sara Sif Sigrid Skuld Sofia
+            Svanhildr Ulfhildr Vigdis Ylva Yrsa T_ora T_ordis T_yra Freydi_s
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            70 = caucasian_northern_blond
+            15 = caucasian_northern_ginger
+            10 = caucasian_northern_brown_hair
+            5 = caucasian_northern_dark_hair
+        }
+    }
+}
+
+pantheon_eastern_group = {
+    graphical_cultures = {
+        chinese_group_coa_gfx
+        indian_building_gfx
+        mongol_clothing_gfx
+        mongol_unit_gfx
+    }
+    mercenary_names = {
+        { name = "mercenary_company_bull" coat_of_arms = "mc_bull" }
+    }
+
+    pure_eastern = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Ji Yu Deyi Wuji Xuanling Ruhui Jing Yanbo Shilian Shiji Xingcheng Zhining Suiliang Rengui Zhide Liangsi Daijia Chengsi Changliang Qinwang Jishan Xiujing Yuanzhong Chengqi Shi Ziyi Maozhen Wei Gongren Shidao Wenben Zhou Jifu Shi Dunli Yifu Zhenglun Jingzong Xiangdao Dunxin Liben Chujun Jingxuan Yuanchao Zhiwen Yan Weidao Judao Wenwei Zhaode Sansi Renjie Qiao Zaisi Xuanwei Shuji Anshi Chuke Zhizhong Shaojing Sili Chong Shuo Jiazhen Song Jiuling Linfu Guozhong Yuan Fuguo Huaiguang Sheng Jian Hong Minzhong Zhaodu Wenjing Kang Shuda Yuanji Gui Zheng Wenjie Yuan Maojiang Yushi Dexuan Luo Wenguan Chujun Jingxian Dezhen Siqian Xuantong Guangfu Youning Wuzi Qinke Tong Shou Hui Yanfan Huai Juyuan Chuna Zhizhong Rizhi Youqiu Huaizhen Xi Zhigu Huaishen Qianyao Guangting Yaoqin Xianke Shizhi Xilie Jiansu Jinqin Jin Sui Duo Mei Congdang Yanruo Yin Yan Zhou Junji Yaxiang Chengqing Yi Yanwei Chuyue Hongwu Anqi Renben Heng Yiyan Zhizhou Da_an Daiju Hongmin Weizhi Benli Xiaojie Jiongxiu Dan Jianzhi Huaiyuan Qinming Renyuan Zhigu Xiangxian Na Lin Zhengyi Jingchen Junliang Cha Fangzhi LU_bing Youyi Sihui Fuyuan Zhigu Xingben Zhirou Youdao Zhihong Shenji Yuanzong Yuansu Rui Juyuan Yuanfang Shifang Jingquan Yunyuan Yuanheng Fangqing Daoguang Yuanchong Xu Jingze Rong Weiqian Yanzhao Jiafu Yuanhong Xilie Guan Mian Ting Qi Kui Hua Zunqing Zai Hongjian Gun Zhongchen Youfu Lin Yi Bo Congyi Gongfu Yanshang Zao Huang Hun Bi Can Zhi Dan Mai Sun Zongru Yuqing Ying Xunyu Zhiyi Huangshang Yuanheng Di Pan Deyu Jiang Hongjin Guanzhi Fengji Qun Yong Yijian Fu Wenchang Yuanying Sengru Chen Yizhi Chuhou Zongmin Shenxi Guyan Yuanyu Xun Tan Yixing Sifu Shen Rangyi Su Shang Minzhong Yuanshi Guicong Tao Mo Lang Shenyou Zhuan Shenquan Xian Shou Que Shang Zhan Ye Wei Che Gou Changtu Zhaodu Rangneng Yanchang Xisheng Chuan Pu Wo She Riyong Renshi Guangqi Zhirou Yanjing Dewei Shouyi Longji Jie Shouli Yuanzhen Xinfu Yun
+        }
+
+        female_names = {
+            Anzong Wenshou Aiqin Que Daoan Maoying Qigui Rongji Huinan Yuying Yingwu Xianyuan Lingyuan Wanying Yingmei Zhenfeng Miaodeng Farong Yuzhu Jiangui Fanjing Daozheng Zhirong Huizhao Shuyi Shuyuan Jieyu Ronghua Zhaoyi Lanying Baoming Jingying Shaoming Huiduan Lingqu Yu_er Nizi Jinghui Shunhua Shangrou Hui Lingguang Lingying Lingbing Zhaopei Yao_er Miaorong Shaoji Jingyan Lihua Wuhua Xianji Shouji Zhaorong Ying Xianzi Puxian Lian Mingxiang Yuanhua Tong_e Mingyue Zhaojun "Zu_e" Yuguang Zuqi Zhonghua Yuyi Changyi Huanghua Xiaolian "E_zi" Manyue Yueyi Yueshang Qieluo Lingji Zhou Shuzhen Gui Hui Huitong "Wan_er" Shun Fangmei Zhenyi Caiping Yuhuan Qiniang Qiu Qiuniang Jianrong Chongyan Zhenniang Yuniang Fujin Shiguang "E_huang" "NU_ying" Xinyue Hanyue Feishan Shunxuan Taihua Dexiu Jinfeng Chunyan Qiongxian E Taotao Bingyi Yunu Zuimei Chunluo Fengniang Daoqing Zhuozhen Yan Yanyan "Shi_er" "Xian_e" Nanxian Shanxiang Ai Shanli Jinluan "Xi_er" "Zhen_er" Wanyi Mantang Xijie Baozhu Xiuying Zhongyang Ruoxian Ruozhao Ruoxin Ruoxun Ruolun Miaozhen Mao_er Daoyi Niangzi Saihua Guiying Shengqiong Chaochao Fu Zhaoyun Rouniang Rounu Yuniang Biniang Rui Jinhua Guilan Shanwei Suyue Yunxian Nenniang Xiang Zhenli Cuiqiao Zhihui Lingxuan Jicong Shuzhu Yujing Yuanyuan Xiaowan Hengbo Mei Xiangjun Rushi Xianglan Ruying Yuhua Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen "Xiao_e" Xiaoying Xiaoyuan Xiaoji Xiuui "NU_jie" Qingyu Zhichong "Yi_an" Youwu Yupan Jinnu Jinluo Fujin "Hu_er" Jinxian Qiaoyun Sanjin Xiangyun Zhuzhu "Jin_er" Chuanzhu Jinzhu Xiaojin Huimei Miaoyu Quyi Siniang Sanniang "A_wu" Lizhi Jing Shu Lingyue Xianhui Jijiang "Guo_er" Huawan Huazhuang Chang Dehua Panpan Caichun Wenxiu Hong Honghong "A_man" Huimei Shuozhen Youwei Huilan Lize Mingda Sujie Yiyang Hua Yuhuan Shi Diaochan Zheng Liu Kangyi Feiyan Hou Jiangnu Na Shengtong Zhi
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            10 = asian
+        }
+    }
+
+    fallen_eastern = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Ji Yu Deyi Wuji Xuanling Ruhui Jing Yanbo Shilian Shiji Xingcheng Zhining Suiliang Rengui Zhide Liangsi Daijia Chengsi Changliang Qinwang Jishan Xiujing Yuanzhong Chengqi Shi Ziyi Maozhen Wei Gongren Shidao Wenben Zhou Jifu Shi Dunli Yifu Zhenglun Jingzong Xiangdao Dunxin Liben Chujun Jingxuan Yuanchao Zhiwen Yan Weidao Judao Wenwei Zhaode Sansi Renjie Qiao Zaisi Xuanwei Shuji Anshi Chuke Zhizhong Shaojing Sili Chong Shuo Jiazhen Song Jiuling Linfu Guozhong Yuan Fuguo Huaiguang Sheng Jian Hong Minzhong Zhaodu Wenjing Kang Shuda Yuanji Gui Zheng Wenjie Yuan Maojiang Yushi Dexuan Luo Wenguan Chujun Jingxian Dezhen Siqian Xuantong Guangfu Youning Wuzi Qinke Tong Shou Hui Yanfan Huai Juyuan Chuna Zhizhong Rizhi Youqiu Huaizhen Xi Zhigu Huaishen Qianyao Guangting Yaoqin Xianke Shizhi Xilie Jiansu Jinqin Jin Sui Duo Mei Congdang Yanruo Yin Yan Zhou Junji Yaxiang Chengqing Yi Yanwei Chuyue Hongwu Anqi Renben Heng Yiyan Zhizhou Da_an Daiju Hongmin Weizhi Benli Xiaojie Jiongxiu Dan Jianzhi Huaiyuan Qinming Renyuan Zhigu Xiangxian Na Lin Zhengyi Jingchen Junliang Cha Fangzhi LU_bing Youyi Sihui Fuyuan Zhigu Xingben Zhirou Youdao Zhihong Shenji Yuanzong Yuansu Rui Juyuan Yuanfang Shifang Jingquan Yunyuan Yuanheng Fangqing Daoguang Yuanchong Xu Jingze Rong Weiqian Yanzhao Jiafu Yuanhong Xilie Guan Mian Ting Qi Kui Hua Zunqing Zai Hongjian Gun Zhongchen Youfu Lin Yi Bo Congyi Gongfu Yanshang Zao Huang Hun Bi Can Zhi Dan Mai Sun Zongru Yuqing Ying Xunyu Zhiyi Huangshang Yuanheng Di Pan Deyu Jiang Hongjin Guanzhi Fengji Qun Yong Yijian Fu Wenchang Yuanying Sengru Chen Yizhi Chuhou Zongmin Shenxi Guyan Yuanyu Xun Tan Yixing Sifu Shen Rangyi Su Shang Minzhong Yuanshi Guicong Tao Mo Lang Shenyou Zhuan Shenquan Xian Shou Que Shang Zhan Ye Wei Che Gou Changtu Zhaodu Rangneng Yanchang Xisheng Chuan Pu Wo She Riyong Renshi Guangqi Zhirou Yanjing Dewei Shouyi Longji Jie Shouli Yuanzhen Xinfu Yun
+        }
+
+        female_names = {
+            Anzong Wenshou Aiqin Que Daoan Maoying Qigui Rongji Huinan Yuying Yingwu Xianyuan Lingyuan Wanying Yingmei Zhenfeng Miaodeng Farong Yuzhu Jiangui Fanjing Daozheng Zhirong Huizhao Shuyi Shuyuan Jieyu Ronghua Zhaoyi Lanying Baoming Jingying Shaoming Huiduan Lingqu Yu_er Nizi Jinghui Shunhua Shangrou Hui Lingguang Lingying Lingbing Zhaopei Yao_er Miaorong Shaoji Jingyan Lihua Wuhua Xianji Shouji Zhaorong Ying Xianzi Puxian Lian Mingxiang Yuanhua Tong_e Mingyue Zhaojun "Zu_e" Yuguang Zuqi Zhonghua Yuyi Changyi Huanghua Xiaolian "E_zi" Manyue Yueyi Yueshang Qieluo Lingji Zhou Shuzhen Gui Hui Huitong "Wan_er" Shun Fangmei Zhenyi Caiping Yuhuan Qiniang Qiu Qiuniang Jianrong Chongyan Zhenniang Yuniang Fujin Shiguang "E_huang" "NU_ying" Xinyue Hanyue Feishan Shunxuan Taihua Dexiu Jinfeng Chunyan Qiongxian E Taotao Bingyi Yunu Zuimei Chunluo Fengniang Daoqing Zhuozhen Yan Yanyan "Shi_er" "Xian_e" Nanxian Shanxiang Ai Shanli Jinluan "Xi_er" "Zhen_er" Wanyi Mantang Xijie Baozhu Xiuying Zhongyang Ruoxian Ruozhao Ruoxin Ruoxun Ruolun Miaozhen Mao_er Daoyi Niangzi Saihua Guiying Shengqiong Chaochao Fu Zhaoyun Rouniang Rounu Yuniang Biniang Rui Jinhua Guilan Shanwei Suyue Yunxian Nenniang Xiang Zhenli Cuiqiao Zhihui Lingxuan Jicong Shuzhu Yujing Yuanyuan Xiaowan Hengbo Mei Xiangjun Rushi Xianglan Ruying Yuhua Yuantong Yanxiang Xiurong Shouying Fuyuan Luzhen Ruirong Suzhen "Xiao_e" Xiaoying Xiaoyuan Xiaoji Xiuui "NU_jie" Qingyu Zhichong "Yi_an" Youwu Yupan Jinnu Jinluo Fujin "Hu_er" Jinxian Qiaoyun Sanjin Xiangyun Zhuzhu "Jin_er" Chuanzhu Jinzhu Xiaojin Huimei Miaoyu Quyi Siniang Sanniang "A_wu" Lizhi Jing Shu Lingyue Xianhui Jijiang "Guo_er" Huawan Huazhuang Chang Dehua Panpan Caichun Wenxiu Hong Honghong "A_man" Huimei Shuozhen Youwei Huilan Lize Mingda Sujie Yiyang Hua Yuhuan Shi Diaochan Zheng Liu Kangyi Feiyan Hou Jiangnu Na Shengtong Zhi
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            10 = asian
+        }
+    }
+}
+
+pantheon_hindu_group = {
+    graphical_cultures = {
+        indo_aryan_group_coa_gfx
+        indian_building_gfx
+        indian_clothing_gfx
+        indian_unit_gfx
+    }
+    mercenary_names = {
+        { name = "mercenary_company_bull" coat_of_arms = "mc_bull" }
+    }
+
+    pure_hindu = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Amritnarayan Balabhata Balinarayan Ballalsen Basudevnayaran
+            Bhagadatta Bhairabendranarayan Bhatta Bhavashankari Bhimsingha Birnayaran
+            Chandrasen Chandranarayan Chaturanan Chilarai
+            Danujmadhava Dasharathadeva Devakhadga Devapala Devendranarayan
+            Dhairjendranayaran Dharendranarayan Dharmapala Dhirsingha
+            Gajnarayan Gopala Govindachandra Govindapala
+            Hajo Harendranarayan Haridevnarayan Hariyamandal Hemantasen Indranarayan
+            Jadu Jagaddipendranarayan Jatakhadga Jayanarayan Jayapala Jitendranarayan
+            Kalyanachandra Kamalnarayan Keshabsen Khadgodyama Krishanmishra Krishnaroy
+            Kumarapala Kumudnarayan Ladahachandra Lakshmansen Lakshmichandra Lakshminarayan Lomapada
+            Madanapala Mahendrapala Mahendrasingha Mahindranarayan Mahipala Manava Mukundanarayan
+            Naranarayan Narasingha Narayanapala Narendranarayan Nayapala Nripendranarayan
+            Parikshitnayaran Prananarayan Prannath Pratapnarayan Pratapnarayanroy Pushkaranadhipa
+            Raghudev Rajabhata Rajadinaj Rajaganesha Rajendranarayan Rajrajendranarayan Rajyapala
+            Ramapala Ramnath Ranasura Ranjitsingha Roopnarayan Rudranarayan
+            Samudrasen Shanibhangar Shashanka Shivanarayan Shivendranarayan Shukladhwaj Shurapala
+            Srichandra Srimanta Subarnachandra Sukhdev Suryanarayan Traillokyachandra
+            Udirnakhadga Uditanarayan Upendranayaran Vakapala Vapyata Vigrahapala
+            Vijaynarayan Vijaysen Vijaysingha Virajdendranarayan Vishwarupsen Vishwasingha
+            "Bhairav_Singh" "Bhavesh" "Bhogishwar" "Dev_Singh" "Dhir_Singh" Dhireshwar
+            "Ganeshwar_Singh" "Gang_Dev" Harasimhadeva "Hari_Singh" "Hemant_Sen"
+            "Kameshwar" "Kirti_Singh" Jyotirishwar "Laxman_Sen" "Laxminath_Singh_Dev" Madanpal
+            "Nanya_Dev" "Nar_Singh" "Narsingh_Dev" "Padma_Singh" "Rambhadra_Singh_Dev" Rameshwar
+            "Samant_Sen" "Shakrasingh_Dev" "Shiv_Singh"  "Vallal_Sen" "Vijay_Sen"
+            Agnimitra Andhraka Ayus Bhagabhadra Bhikhari Bhumimitra Devabhuti Ghosha Gopal Govindapal
+            Khsetravridha Maharshi Mahendra Maurayadhwaj Narayana Pulindaka Pusyamitra
+            Sahtiya Susarman Vajramitra Vasudeva Vasujyeshtha Vasumitra
+        }
+
+        female_names = {
+            Amrapali Amritakala Asima Bhavashankari "Bishwas_Devi" Bhogavati Bibibai Dattadevi Devavati "Devi_Ahiylya" Gandharavati
+            Gayatri Himadrija Hira Jira Kanchani Mahendrani Malavyadevi Nayanadevi Rani Ratnadevi Suvrata
+            Syamadevi Vijnayavati Vina Yajnavati
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            10 = mediterranean
+        }
+    }
+
+    fallen_hindu = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Amritnarayan Balabhata Balinarayan Ballalsen Basudevnayaran
+            Bhagadatta Bhairabendranarayan Bhatta Bhavashankari Bhimsingha Birnayaran
+            Chandrasen Chandranarayan Chaturanan Chilarai
+            Danujmadhava Dasharathadeva Devakhadga Devapala Devendranarayan
+            Dhairjendranayaran Dharendranarayan Dharmapala Dhirsingha
+            Gajnarayan Gopala Govindachandra Govindapala
+            Hajo Harendranarayan Haridevnarayan Hariyamandal Hemantasen Indranarayan
+            Jadu Jagaddipendranarayan Jatakhadga Jayanarayan Jayapala Jitendranarayan
+            Kalyanachandra Kamalnarayan Keshabsen Khadgodyama Krishanmishra Krishnaroy
+            Kumarapala Kumudnarayan Ladahachandra Lakshmansen Lakshmichandra Lakshminarayan Lomapada
+            Madanapala Mahendrapala Mahendrasingha Mahindranarayan Mahipala Manava Mukundanarayan
+            Naranarayan Narasingha Narayanapala Narendranarayan Nayapala Nripendranarayan
+            Parikshitnayaran Prananarayan Prannath Pratapnarayan Pratapnarayanroy Pushkaranadhipa
+            Raghudev Rajabhata Rajadinaj Rajaganesha Rajendranarayan Rajrajendranarayan Rajyapala
+            Ramapala Ramnath Ranasura Ranjitsingha Roopnarayan Rudranarayan
+            Samudrasen Shanibhangar Shashanka Shivanarayan Shivendranarayan Shukladhwaj Shurapala
+            Srichandra Srimanta Subarnachandra Sukhdev Suryanarayan Traillokyachandra
+            Udirnakhadga Uditanarayan Upendranayaran Vakapala Vapyata Vigrahapala
+            Vijaynarayan Vijaysen Vijaysingha Virajdendranarayan Vishwarupsen Vishwasingha
+            "Bhairav_Singh" "Bhavesh" "Bhogishwar" "Dev_Singh" "Dhir_Singh" Dhireshwar
+            "Ganeshwar_Singh" "Gang_Dev" Harasimhadeva "Hari_Singh" "Hemant_Sen"
+            "Kameshwar" "Kirti_Singh" Jyotirishwar "Laxman_Sen" "Laxminath_Singh_Dev" Madanpal
+            "Nanya_Dev" "Nar_Singh" "Narsingh_Dev" "Padma_Singh" "Rambhadra_Singh_Dev" Rameshwar
+            "Samant_Sen" "Shakrasingh_Dev" "Shiv_Singh"  "Vallal_Sen" "Vijay_Sen"
+            Agnimitra Andhraka Ayus Bhagabhadra Bhikhari Bhumimitra Devabhuti Ghosha Gopal Govindapal
+            Khsetravridha Maharshi Mahendra Maurayadhwaj Narayana Pulindaka Pusyamitra
+            Sahtiya Susarman Vajramitra Vasudeva Vasujyeshtha Vasumitra
+        }
+
+        female_names = {
+            Amrapali Amritakala Asima Bhavashankari "Bishwas_Devi" Bhogavati Bibibai Dattadevi Devavati "Devi_Ahiylya" Gandharavati
+            Gayatri Himadrija Hira Jira Kanchani Mahendrani Malavyadevi Nayanadevi Rani Ratnadevi Suvrata
+            Syamadevi Vijnayavati Vina Yajnavati
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            10 = mediterranean
+        }
+    }
+}
+
+pantheon_egyptian_group = {
+    graphical_cultures = {
+        latin_group_coa_gfx
+        western_coa_gfx
+        mediterranean_building_gfx
+        western_clothing_gfx
+        western_unit_gfx
+    }
+    mercenary_names = {
+        { name = "mercenary_company_bull" coat_of_arms = "mc_bull" }
+    }
+
+    pure_egyptian = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            AarO_n Aberikos Abraam AN_gelos Andreas Athanasios BalO_ Bartholomaios BirE_l Chael Christophoros Dauid Dimetheos
+            Dioskoros DiO_nisios Eliezer Eionkouda Emmanouel EnO_ch EphannE_ Epimachos Epiphanios Gabriel Gabrielkouda Gabrielophorou Gennatios
+            GeO_rgios HE_lias Hoase Hoassi Hoasse Iacob Ieremias IE_sous IE_sousinkouda IO_annou IO_annE_s Iordanes Ioseph Kalinikos Kollouthos
+            Krisanthos Kuriakos Kurillos Lazaros Leon Leontios Makarios Mariana Mariankouda Marianos Marios Markos Marturophoros
+            MaS_anN_al Maththias ME_lE_nkouda Mena Menankouda Merkourios MichaE_l MichaE_lkouda Mouses Orna Panigiros Papasinen Papasinkouda Patrikios
+            Paulos Petros Petrou Philotheos Philemon Prochoros Raphael Raphaelkouda Samson Senouthios Sentiko Sergios Simeoni Soizuros SolomO_n Sotinkouda Stephanos
+            Stephanou Thadeosi TheodO_ros Theodosios Theodote Thoma TophE_na Tirsakouni Zacharias Zosima
+        }
+
+        female_names = {
+            Agathe Alethia Anthelia Athanasia ChaelsoN_oja Chrissa Christina Douriko Egaloskoura Eikkir Eionmnne EionN_oka Eitou Elisabeth Eirena Eirene Eirota EirotatouN_N_lki
+            Entaeiri EO_neille EphannE_ Epimachosi Eudosia Eulabia Eusebia Eustephanou Fatima Genseoua Hellene Hemene Iannia IE_sousyko Ioustina Kel Kerike Kersiami Kettoudi
+            Keudonia Kurake MaraN_a Maria Mariam Mariane Marianou MichaE_liko N_aS_S_a N_eS_S_adena N_ejin N_ilesa N_ojjl N_oltou N_onne N_onnen N_ouddl N_ssitkitol OuarenO_ Patrikia Pelagia
+            Penatti Pesanthia Petronia Prisisilla Rahimah Sophia Sousanna Staurophania Theobronia Theodorake Theodosia Theognosta Theophania Theophilia Theipisthe Theozia Zerebekka
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            10 = arab
+        }
+    }
+
+    fallen_egyptian = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            AarO_n Aberikos Abraam AN_gelos Andreas Athanasios BalO_ Bartholomaios BirE_l Chael Christophoros Dauid Dimetheos
+            Dioskoros DiO_nisios Eliezer Eionkouda Emmanouel EnO_ch EphannE_ Epimachos Epiphanios Gabriel Gabrielkouda Gabrielophorou Gennatios
+            GeO_rgios HE_lias Hoase Hoassi Hoasse Iacob Ieremias IE_sous IE_sousinkouda IO_annou IO_annE_s Iordanes Ioseph Kalinikos Kollouthos
+            Krisanthos Kuriakos Kurillos Lazaros Leon Leontios Makarios Mariana Mariankouda Marianos Marios Markos Marturophoros
+            MaS_anN_al Maththias ME_lE_nkouda Mena Menankouda Merkourios MichaE_l MichaE_lkouda Mouses Orna Panigiros Papasinen Papasinkouda Patrikios
+            Paulos Petros Petrou Philotheos Philemon Prochoros Raphael Raphaelkouda Samson Senouthios Sentiko Sergios Simeoni Soizuros SolomO_n Sotinkouda Stephanos
+            Stephanou Thadeosi TheodO_ros Theodosios Theodote Thoma TophE_na Tirsakouni Zacharias Zosima
+        }
+
+        female_names = {
+            Agathe Alethia Anthelia Athanasia ChaelsoN_oja Chrissa Christina Douriko Egaloskoura Eikkir Eionmnne EionN_oka Eitou Elisabeth Eirena Eirene Eirota EirotatouN_N_lki
+            Entaeiri EO_neille EphannE_ Epimachosi Eudosia Eulabia Eusebia Eustephanou Fatima Genseoua Hellene Hemene Iannia IE_sousyko Ioustina Kel Kerike Kersiami Kettoudi
+            Keudonia Kurake MaraN_a Maria Mariam Mariane Marianou MichaE_liko N_aS_S_a N_eS_S_adena N_ejin N_ilesa N_ojjl N_oltou N_onne N_onnen N_ouddl N_ssitkitol OuarenO_ Patrikia Pelagia
+            Penatti Pesanthia Petronia Prisisilla Rahimah Sophia Sousanna Staurophania Theobronia Theodorake Theodosia Theognosta Theophania Theophilia Theipisthe Theozia Zerebekka
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            10 = arab
+        }
+    }
+}
+
+pantheon_persian_group = {
+    graphical_cultures = {
+        iranian_group_coa_gfx
+        mena_building_gfx
+        mena_clothing_gfx
+        mena_unit_gfx
+    }
+    mercenary_names = {
+        { name = "mercenary_company_bull" coat_of_arms = "mc_bull" }
+    }
+
+    pure_persian = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Abbas Abolhassan Afshar Ahmad Akbar Ali Allahyar Amin Anushirvan Aram Ardahan Ardavan Ardeshir Assad Aurang Ayeshah Babak Bahman
+            Bahram Bakhtiar Behrad Behrouz Bozorg Danush Darab Dariush Davud Djamasp Ebrahim Ehsan Esfandiar Eskander Esma_il Faramarz Faraz Fareed Farhad Fariborz
+            Farroukh Farrukhzad Farzad Fath Ferdows Fereedun Ghobad Gholam Godarz Goshtasb Hafez Hassan Hazarasp Hedayat Hooshyar Hormazd Hormoz Hossein
+            Humayun Jahandar Jahangir Jahanshah Jamshid Javeed Kambiz Kamran Kavoos Keyghobad Keykhosrau Kharmandar Khashayar Kavadh Khodadad Khosrau
+            Khudayar Khurshid Kurush Mahmud Manuchihr Manushihr Marzuban Mashad Maziar Mehrab Mehrzad Mohammed Morad Morteza Mozaffar Nard Naveed Nawid Nezam Parviz Pashang Peroz
+            Pujman Reza Rostam Ruhollah Sadri Salman Shahab Shahbaz Shahin Shahram Shahrokh Shahruz Shahryar Shapur Shayan Sina Tahmasb Vahhab Vahid
+            Vali Vandad Varshasb Vishtasb Yazdegerd Yousef Zahak Zakaria Zand Zartosht Zia
+        }
+
+        female_names = {
+            Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh Bahar Banafsheh Behnaz Burandokht Darya Delaram Delbar Dinah Donya Elham Elnaz Farah Fareedeh Farnaz Farrin Farva
+            Furuzan Ghamze Ghazal Ghoncheh Golbahar Golnaz Golpari Golshan Hamdam Hurmat Irandokht Jamileh Javaneh Leila Mahdokht Mahtab Mariam
+            Navvaba Nazgol Nazilla Noor Parvaneh Parvin Pertevniyal Pourandokht Roshanora Roxana Salomeh Shahrzad Shahzadeh Shirin Soraya Touran
+            Tourandokht Yasaman Yekta Zarrindokht Zeynab Zohreh
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            8 = arab
+            5 = mediterranean
+        }
+    }
+
+    fallen_persian = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Abbas Abolhassan Afshar Ahmad Akbar Ali Allahyar Amin Anushirvan Aram Ardahan Ardavan Ardeshir Assad Aurang Ayeshah Babak Bahman
+            Bahram Bakhtiar Behrad Behrouz Bozorg Danush Darab Dariush Davud Djamasp Ebrahim Ehsan Esfandiar Eskander Esma_il Faramarz Faraz Fareed Farhad Fariborz
+            Farroukh Farrukhzad Farzad Fath Ferdows Fereedun Ghobad Gholam Godarz Goshtasb Hafez Hassan Hazarasp Hedayat Hooshyar Hormazd Hormoz Hossein
+            Humayun Jahandar Jahangir Jahanshah Jamshid Javeed Kambiz Kamran Kavoos Keyghobad Keykhosrau Kharmandar Khashayar Kavadh Khodadad Khosrau
+            Khudayar Khurshid Kurush Mahmud Manuchihr Manushihr Marzuban Mashad Maziar Mehrab Mehrzad Mohammed Morad Morteza Mozaffar Nard Naveed Nawid Nezam Parviz Pashang Peroz
+            Pujman Reza Rostam Ruhollah Sadri Salman Shahab Shahbaz Shahin Shahram Shahrokh Shahruz Shahryar Shapur Shayan Sina Tahmasb Vahhab Vahid
+            Vali Vandad Varshasb Vishtasb Yazdegerd Yousef Zahak Zakaria Zand Zartosht Zia
+        }
+
+        female_names = {
+            Afsaneh Ahu Arghavan Azarmidokht Asa Azadeh Bahar Banafsheh Behnaz Burandokht Darya Delaram Delbar Dinah Donya Elham Elnaz Farah Fareedeh Farnaz Farrin Farva
+            Furuzan Ghamze Ghazal Ghoncheh Golbahar Golnaz Golpari Golshan Hamdam Hurmat Irandokht Jamileh Javaneh Leila Mahdokht Mahtab Mariam
+            Navvaba Nazgol Nazilla Noor Parvaneh Parvin Pertevniyal Pourandokht Roshanora Roxana Salomeh Shahrzad Shahzadeh Shirin Soraya Touran
+            Tourandokht Yasaman Yekta Zarrindokht Zeynab Zohreh
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            8 = arab
+            5 = mediterranean
+        }
+    }
+}
+
+pantheon_african_group = {
+    graphical_cultures = {
+        central_african_group_coa_gfx
+        mena_building_gfx
+        african_clothing_gfx
+        sub_sahran_unit_gfx
+    }
+    mercenary_names = {
+        { name = "mercenary_company_bull" coat_of_arms = "mc_bull" }
+    }
+
+    pure_african = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Abayomi Abegunde Abejide Abiade Abidemi Abidugun Abimbola Abiodun Abiola Abioye Adagba Ade Adeagbo Adebamgbe Adebayo Adebowale Adegbalu Adegoke Adejinle Adejola Ademilu Adeniyi Adetokunbo
+            Adisa Afolabi Agbedegbede Ajimuda Akinmoyero Alayemore Amadi Anikulapo Aribiwoso Aworokolokin Ayetise Ayo Ayodele Ayokunle Ayomide Ayotunde
+            Babafemi Babajide Babatunde Bamidele Bandele Bolade Ekun Ekundayo Eniola Enitan Femi Folami Gbanlare Gbegbaaje Gboonijio Giesi
+            Idowu Ifedapo Kashimawo Kayin Kayode Kehinde Lafogido Lagunja Lajamisan Lajodoogun Larunnka Lugbade Lumobi Luwoo
+            Oba Obafemi Obalufon Obamakin Odidimode Odudua Oduduwa Ogbogbodirin Ogboruu Ogun Ojelokunbirin Ojigidiri Okanlajosin Okiti
+            Olabode Oladele Olamilekan Olanrewaju Olateju Olojo Oloyede Olufemi Olufunke Olufunmilola Olujimi Olukayode Olumide Olumuyiwa Oluremi Olusegun Oluwa Oluwafunmilayo Oluwanisola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Oluyemi Omobolanle Omogbogbo Opeyemi Oranmiyan Oranyan Osangangan Osinkola Osinlade Oyin
+            Remilekun Rogbeesin Taiwo Temiloluwa Tokunbo Wunmonije
+        }
+
+        female_names = {
+            Abagbe Abayomi Abebi Abeje Abeke Abeni Abeo Abiodun Abiona Abisola Adebola Adebomi Adebowale Adedagbo Adedewe Adedoja Adeleke Adenrele Adeola Aderinola Adesimbo Adesina Adetokunbo Adeyemi Alaba Ayo Ayobami Ayobunmi Ayodele Ayofemi Ayoluwa Ayomide Ayotunde
+            Bandele Bolade Bolanle Dada Dayo Ekundayo Eniola Folade Folasade Gbemisola Idowu Ife Ifedapo Ige Iyabo Kayin Kehinde
+            Modupe Mojisola Monifa Morayo Moremi Oladele Olamide Olateju Olayinka Olubunmi Olufunke Olufunmilola Oluremi Oluwafunmilayo Oluwanisola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Oyin
+            Remilekun Simisola Temiloluwa Temitope Titilayo Yejide Yetunde Yewande
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            10 = african
+        }
+    }
+
+    fallen_african = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Abayomi Abegunde Abejide Abiade Abidemi Abidugun Abimbola Abiodun Abiola Abioye Adagba Ade Adeagbo Adebamgbe Adebayo Adebowale Adegbalu Adegoke Adejinle Adejola Ademilu Adeniyi Adetokunbo
+            Adisa Afolabi Agbedegbede Ajimuda Akinmoyero Alayemore Amadi Anikulapo Aribiwoso Aworokolokin Ayetise Ayo Ayodele Ayokunle Ayomide Ayotunde
+            Babafemi Babajide Babatunde Bamidele Bandele Bolade Ekun Ekundayo Eniola Enitan Femi Folami Gbanlare Gbegbaaje Gboonijio Giesi
+            Idowu Ifedapo Kashimawo Kayin Kayode Kehinde Lafogido Lagunja Lajamisan Lajodoogun Larunnka Lugbade Lumobi Luwoo
+            Oba Obafemi Obalufon Obamakin Odidimode Odudua Oduduwa Ogbogbodirin Ogboruu Ogun Ojelokunbirin Ojigidiri Okanlajosin Okiti
+            Olabode Oladele Olamilekan Olanrewaju Olateju Olojo Oloyede Olufemi Olufunke Olufunmilola Olujimi Olukayode Olumide Olumuyiwa Oluremi Olusegun Oluwa Oluwafunmilayo Oluwanisola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Oluyemi Omobolanle Omogbogbo Opeyemi Oranmiyan Oranyan Osangangan Osinkola Osinlade Oyin
+            Remilekun Rogbeesin Taiwo Temiloluwa Tokunbo Wunmonije
+        }
+
+        female_names = {
+            Abagbe Abayomi Abebi Abeje Abeke Abeni Abeo Abiodun Abiona Abisola Adebola Adebomi Adebowale Adedagbo Adedewe Adedoja Adeleke Adenrele Adeola Aderinola Adesimbo Adesina Adetokunbo Adeyemi Alaba Ayo Ayobami Ayobunmi Ayodele Ayofemi Ayoluwa Ayomide Ayotunde
+            Bandele Bolade Bolanle Dada Dayo Ekundayo Eniola Folade Folasade Gbemisola Idowu Ife Ifedapo Ige Iyabo Kayin Kehinde
+            Modupe Mojisola Monifa Morayo Moremi Oladele Olamide Olateju Olayinka Olubunmi Olufunke Olufunmilola Oluremi Oluwafunmilayo Oluwanisola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Oyin
+            Remilekun Simisola Temiloluwa Temitope Titilayo Yejide Yetunde Yewande
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            10 = african
+        }
+    }
+}
