@@ -41,7 +41,7 @@ disciple = {
 
 	on_ready = {
 		scheme_owner = {
-			trigger_event = pog_god_events.1000
+			trigger_event = pog_become_a_god.1000
 		}
 		scope:target = {
 			add_opinion = {

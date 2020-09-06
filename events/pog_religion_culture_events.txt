@@ -1,0 +1,248 @@
+namespace = pog_religion_culture
+
+# Religion conversion
+pog_religion_culture.0000 = {
+    type = character_event
+    title = pog_religion_culture.0000.t
+    desc = pog_religion_culture.0000.desc
+    theme = family
+
+    left_portrait = {
+        character = root
+        animation = bold
+    }
+
+    option = {
+        name = pog_religion_culture.0000.a
+        custom_tooltip = "pog.tooltip.conversion.interim"
+
+        trigger_event = {
+            id = pog_religion_culture.0001
+            days = 7
+        }
+    }
+}
+
+pog_religion_culture.00000 = {
+    type = character_event
+    title = pog_religion_culture.00000.t
+    desc = pog_religion_culture.00000.desc
+    theme = war
+
+    left_portrait = {
+        character = root
+        animation = bold
+    }
+
+    option = {
+        name = pog_religion_culture.00000.a
+        custom_tooltip = "pog.tooltip.conversion.interim"
+
+        trigger_event = {
+            id = pog_religion_culture.0002
+            days = 7
+        }
+    }
+}
+
+pog_religion_culture.0001 = {
+    type = character_event
+    title = pog_religion_culture.0001.t
+    desc = pog_religion_culture.0001.desc
+    theme = crown
+
+    left_portrait = {
+        character = root
+        animation = personality_rational
+    }
+
+    trigger = {
+        is_deity = yes
+        is_pure = yes
+        NOT = { has_character_flag = pog_joined_pantheon }
+    }
+
+    immediate = {
+        add_character_flag = { flag = pog_joined_pantheon }
+    }
+
+    option = {
+        name = pog_religion_culture.0001.a
+        custom_tooltip = "pog.tooltip.conversion.abrahamic"
+
+        root = {
+            set_character_faith_with_conversion  = faith:pure_abrahamic_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0001.b
+        custom_tooltip = "pog.tooltip.conversion.celtic"
+
+        root = {
+            set_character_faith_with_conversion  = faith:pure_celtic_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0001.c
+        custom_tooltip = "pog.tooltip.conversion.slavic"
+
+        root = {
+            set_character_faith_with_conversion  = faith:pure_slavic_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0001.d
+        custom_tooltip = "pog.tooltip.conversion.norse"
+
+        root = {
+            set_character_faith_with_conversion = faith:pure_norse_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0001.e
+        custom_tooltip = "pog.tooltip.conversion.eastern"
+
+        root = {
+            set_character_faith_with_conversion = faith:pure_eastern_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0001.f
+        custom_tooltip = "pog.tooltip.conversion.hindu"
+
+        root = {
+            set_character_faith_with_conversion = faith:pure_hindu_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0001.g
+        custom_tooltip = "pog.tooltip.conversion.egyptian"
+
+        root = {
+            set_character_faith_with_conversion = faith:pure_egyptian_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0001.h
+        custom_tooltip = "pog.tooltip.conversion.persian"
+
+        root = {
+            set_character_faith_with_conversion = faith:pure_persian_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0001.i
+        custom_tooltip = "pog.tooltip.conversion.african"
+
+        root = {
+            set_character_faith_with_conversion = faith:pure_african_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0001.j
+        custom_tooltip = "pog.tooltip.conversion.none"
+
+        add_trait = cynical
+    }
+}
+
+pog_religion_culture.0002 = {
+    type = character_event
+    title = pog_religion_culture.0002.t
+    desc = pog_religion_culture.0002.desc
+    theme = crown
+
+    left_portrait = {
+        character = root
+        animation = personality_rational
+    }
+
+    trigger = {
+        is_deity = yes
+        is_fallen = yes
+        NOT = { has_character_flag = pog_joined_pantheon }
+    }
+
+    immediate = {
+        add_character_flag = { flag = pog_joined_pantheon }
+    }
+
+    option = {
+        name = pog_religion_culture.0002.a
+        custom_tooltip = "pog.tooltip.conversion.abrahamic"
+
+        root = {
+            set_character_faith_with_conversion = faith:fallen_abrahamic_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0002.b
+        custom_tooltip = "pog.tooltip.conversion.celtic"
+
+        root = {
+            set_character_faith_with_conversion = faith:fallen_celtic_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0002.c
+        custom_tooltip = "pog.tooltip.conversion.slavic"
+
+        root = {
+            set_character_faith_with_conversion = faith:fallen_slavic_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0002.d
+        custom_tooltip = "pog.tooltip.conversion.norse"
+
+        root = {
+            set_character_faith_with_conversion = faith:fallen_norse_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0002.e
+        custom_tooltip = "pog.tooltip.conversion.eastern"
+
+        root = {
+            set_character_faith_with_conversion = faith:fallen_eastern_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0002.f
+        custom_tooltip = "pog.tooltip.conversion.hindu"
+
+        root = {
+            set_character_faith_with_conversion = faith:fallen_hindu_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0002.g
+        custom_tooltip = "pog.tooltip.conversion.egyptian"
+
+        root = {
+            set_character_faith_with_conversion = faith:fallen_egyptian_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0002.h
+        custom_tooltip = "pog.tooltip.conversion.persian"
+
+        root = {
+            set_character_faith_with_conversion = faith:fallen_persian_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0002.i
+        custom_tooltip = "pog.tooltip.conversion.african"
+
+        root = {
+            set_character_faith_with_conversion = faith:fallen_african_pantheon
+        }
+    }
+    option = {
+        name = pog_religion_culture.0001.j
+        custom_tooltip = "pog.tooltip.conversion.none"
+
+        add_trait = cynical
+    }
+}

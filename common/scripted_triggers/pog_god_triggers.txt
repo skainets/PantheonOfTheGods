@@ -1,0 +1,22 @@
+is_deity = {
+    OR = {
+        has_trait = fallen_deity
+        has_trait = pure_deity
+        has_trait = young_pure_deity
+        has_trait = young_fallen_deity
+    }
+}
+
+is_pure = {
+    OR = {
+        has_trait = pure_deity
+        has_trait = young_pure_deity
+    }
+}
+
+is_fallen = {
+    OR = {
+        has_trait = fallen_deity
+        has_trait = young_fallen_deity
+    }
+}
