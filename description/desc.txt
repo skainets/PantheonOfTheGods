@@ -1,0 +1,36 @@
+[img]https://static.wixstatic.com/media/f0b89c_5929ae018776490bb2c3ec30cbbcd744~mv2.png/v1/fill/w_452,h_89,al_c,q_85/Logo.webp[/img]
+
+[b]Pantheon of the Gods is a new mod inspired by the fantastic work done by many CKII modders to bring us the many fantasy and alternate history mods, most specifically  "The Gods" mod. This is in a similar vein to those great ck2 mods but by no means the same. In fact I have many dramatic and large plans for this mod, even going as far as adding new races, magic systems and a comprehensive and immersion filled storyline. The point of this mod is not to retread the steps of previous mods, but to give a convincing and enthralling alternative history for the normal Crusader Kings setting.[/b]
+
+
+[img]https://static.wixstatic.com/media/f0b89c_02c987cece254e3e8868ac27744933ca~mv2.png/v1/fill/w_362,h_89,al_c,q_85/logo_current_features.webp[/img]
+🌟 Traits for Gods, Goddesses and Demi-Gods.
+🌟 New religions and cultures related to the various god types.
+🌟 A basic corruption system where you can become a fallen god.
+🌟 A fleshed out event chain for becoming a god which gives a sneak peak into the lore I will be building into the mod in the future.
+🌟 Stat increase and inheritance of traits using a new system separate from paradox's congenital trait system.
+🌟 Dilution of blood through inheritance which can lead to blood of the gods running through families as a congenital 
+      trait.
+🌟 Apotheosis and gifting others the power of godhood.
+🌟 Blessing and cursing characters, even so far as to give chosen ones the gift of immortality (without god traits).
+
+
+
+[img]https://static.wixstatic.com/media/f0b89c_f6397a4d5f434919890ce50046112383~mv2.png/v1/fill/w_590,h_89,al_c,q_85/Future_features.webp[/img]
+🌟 More expanded traits to do with gods, including a tiered system of power so you can rise to not only be a god, but the most powerful one at that
+🌟 Education and profession based traits for the divine man or woman.
+🌟 Fleshed out religions an cultures with already established god characters and pantheons.
+🌟 Dramatic story based wars against pantheons as they battle for supremacy of the mortal coil.
+🌟 New regiments and men-at-arms. Fight with an army of angels or demons at your side.
+🌟 New lifestyle trees to do with powerful divine magic.
+🌟 Implementation of a magic system that even mortals can access.
+🌟 Strange new races and creatures, that are deeply connected with their local mythology.
+
+
+Thanks for reading, and enjoy the mod how it is currently. If you have any bugs or request let me know in the comments...
+
+If you want more news, want to volunteer to help with the mod or just chill, feel free to join the discord!
+
+[b]Apply to join the dev team on the discord, lets make this a mod to remember![/b]
+
+[url=https://discord.gg/5rEnbGC][img]https://static.wixstatic.com/media/f0b89c_d2f92e585d0a4c28a27cfece7d8ccb88~mv2.png/v1/fill/w_209,h_66,al_c,q_85,usm_0.66_1.00_0.01/discord%20image.webp[/img][/url]

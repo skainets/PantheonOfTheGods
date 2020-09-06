@@ -4,15 +4,11 @@ random_yearly_playable_pulse = {
 	}
 }
 
-# random_yearly_everyone_pulse = {
-# 	events = {
-# 		# pog_god_events.1001
-# 	}
-# }
+random_yearly_everyone_pulse = {
+	trigger = {
+		age > 17
+	}
 
-on_16th_birthday = {
-	trigger = { age = 16 }
-	
 	events = {
 		pog_become_a_god.1001
 	}

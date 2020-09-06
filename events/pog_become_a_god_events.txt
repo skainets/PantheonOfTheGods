@@ -429,6 +429,7 @@ pog_become_a_god.1001 = {
 	hidden = yes
 
 	trigger = {
+		age > 17
 		OR = {
 			has_trait = young_fallen_deity
 			has_trait = young_pure_deity

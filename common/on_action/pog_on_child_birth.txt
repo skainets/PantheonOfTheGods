@@ -12,10 +12,16 @@ on_birth_child = {
 			limit = {
 				AND = {
 					scope:real_father = {
-						has_trait = pure_deity
+						OR = {
+							has_trait = pure_deity
+							has_trait = young_pure_deity
+						}
 					}
 					scope:mother = {
-						has_trait = pure_deity
+						OR = {
+							has_trait = pure_deity
+							has_trait = young_pure_deity
+						}
 					}
 				}
 			}
@@ -26,10 +32,16 @@ on_birth_child = {
 			limit = {
 				AND = {
 					scope:real_father = {
-						has_trait = fallen_deity
+						OR = {
+							has_trait = fallen_deity
+							has_trait = young_fallen_deity
+						}
 					}
 					scope:mother = {
-						has_trait = fallen_deity
+						OR = {
+							has_trait = fallen_deity
+							has_trait = young_fallen_deity
+						}
 					}
 				}
 			}
@@ -58,6 +70,8 @@ on_birth_child = {
 							AND = {
 								NOT = { has_trait = demi_deity }
 								NOT = { has_trait = pure_deity }
+								NOT = { has_trait = young_pure_deity }
+								NOT = { has_trait = young_fallen_deity }
 								NOT = { has_trait = fallen_deity }
 							}
 						}
@@ -74,6 +88,8 @@ on_birth_child = {
 								NOT = { has_trait = demi_deity }
 								NOT = { has_trait = pure_deity }
 								NOT = { has_trait = fallen_deity }
+								NOT = { has_trait = young_pure_deity }
+								NOT = { has_trait = young_fallen_deity }
 							}
 						}
 					}
@@ -87,7 +103,10 @@ on_birth_child = {
 				OR = {
 					AND = {
 						scope:real_father = {
-							has_trait = pure_deity
+							OR = {
+								has_trait = pure_deity
+								has_trait = young_pure_deity
+							}
 						}
 						scope:mother = {
 							has_trait = demi_deity
@@ -98,7 +117,10 @@ on_birth_child = {
 							has_trait = demi_deity
 						}
 						scope:mother = {
-							has_trait = pure_deity
+							OR = {
+								has_trait = pure_deity
+								has_trait = young_pure_deity
+							}
 						}
 					}
 				}
@@ -118,7 +140,10 @@ on_birth_child = {
 				OR = {
 					AND = {
 						scope:real_father = {
-							has_trait = fallen_deity
+							OR = {
+								has_trait = fallen_deity
+								has_trait = young_fallen_deity
+							}
 						}
 						scope:mother = {
 							has_trait = demi_deity
@@ -129,7 +154,10 @@ on_birth_child = {
 							has_trait = demi_deity
 						}
 						scope:mother = {
-							has_trait = fallen_deity
+							OR = {
+								has_trait = fallen_deity
+								has_trait = young_fallen_deity
+							}
 						}
 					}
 				}
@@ -153,21 +181,31 @@ on_birth_child = {
 								NOT = { has_trait = demi_deity }
 								NOT = { has_trait = pure_deity }
 								NOT = { has_trait = fallen_deity }
+								NOT = { has_trait = young_pure_deity }
+								NOT = { has_trait = young_fallen_deity }
 							}
 						}
 						scope:mother = {
-							has_trait = fallen_deity
+							OR = {
+								has_trait = fallen_deity
+								has_trait = young_fallen_deity
+							}
 						}
 					}
 					AND = {
 						scope:real_father = {
-							has_trait = fallen_deity 
+							OR = {
+								has_trait = fallen_deity
+								has_trait = young_fallen_deity
+							} 
 						}
 						scope:mother = {
 							AND = {
 								NOT = { has_trait = demi_deity }
 								NOT = { has_trait = pure_deity }
 								NOT = { has_trait = fallen_deity }
+								NOT = { has_trait = young_pure_deity }
+								NOT = { has_trait = young_fallen_deity }
 							}
 						}
 					}
@@ -185,21 +223,31 @@ on_birth_child = {
 								NOT = { has_trait = demi_deity }
 								NOT = { has_trait = pure_deity }
 								NOT = { has_trait = fallen_deity }
+								NOT = { has_trait = young_pure_deity }
+								NOT = { has_trait = young_fallen_deity }
 							}
 						}
 						scope:mother = {
-							has_trait = pure_deity
+							OR = {
+								has_trait = pure_deity
+								has_trait = young_pure_deity
+							}
 						}
 					}
 					AND = {
 						scope:real_father = {
-							has_trait = pure_deity 
+							OR = {
+								has_trait = pure_deity
+								has_trait = young_pure_deity
+							} 
 						}
 						scope:mother = {
 							AND = {
 								NOT = { has_trait = demi_deity }
 								NOT = { has_trait = pure_deity }
 								NOT = { has_trait = fallen_deity }
+								NOT = { has_trait = young_pure_deity }
+								NOT = { has_trait = young_fallen_deity }
 							}
 						}
 					}
@@ -213,18 +261,30 @@ on_birth_child = {
 				OR = {
 					AND = {
 						scope:real_father = {
-							has_trait = pure_deity
+							OR = {
+								has_trait = pure_deity
+								has_trait = young_pure_deity
+							}
 						}
 						scope:mother = {
-							has_trait = fallen_deity
+							OR = {
+								has_trait = fallen_deity
+								has_trait = young_fallen_deity
+							}
 						}
 					}
 					AND = {
 						scope:real_father = {
-							has_trait = fallen_deity 
+							OR = {
+								has_trait = fallen_deity
+								has_trait = young_fallen_deity
+							} 
 						}
 						scope:mother = {
-							has_trait = pure_deity
+							OR = {
+								has_trait = pure_deity
+								has_trait = young_pure_deity
+							}
 						}
 					}
 				}
