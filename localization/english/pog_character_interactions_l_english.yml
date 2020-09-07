@@ -12,4 +12,6 @@
  undying_interaction:0 "Gift Immortality"
  undying_interaction_desc:0 "Gift this lowly mortal not with your god-hood, but with the blessing, or curse of eternal unaging life."
  msg_apotheosis_interaction_title:0 "Apotheosis"
- msg_apotheosis_interaction_desc:0 "[actor.GetCharacter.GetFirstNameNoTooltip] has gifted [recipient.GetCharacter.GetFirstNameNoTooltip] with god-like powers through apotheosis."
+ msg_apotheosis_interaction_desc:0 "[actor.GetCharacter.GetFirstNameNoTooltip] has gifted [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] with god-like powers through apotheosis."
+ divine_conception_interaction:0 "Divine Conception"
+ divine_conception_interaction_desc:0 "Conceive a divine child with this character."

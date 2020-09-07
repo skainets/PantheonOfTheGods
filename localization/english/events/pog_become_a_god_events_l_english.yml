@@ -34,7 +34,10 @@
  pog_become_a_god.0009.desc:0 "Immediately a blinding rage fills my heart, almost like a black plague. I place my hand on the cover of the book and think inward to all the hatred and all the pain I hold within me. With great malice black ink sprouts from my hand and drenches the book. I hear the screams of the spirit as it is turned inside out, corrupted and consumed by my black magic. It is at that point I realize the truth, I am the Mad God. I am the one responsible for holding this spirit hostage, I am the destroyer of men, women and children alike. As the power of a thousand gods flows through me I know deep in my corrupted heart that I even now possess the ability to create a progeny, one which could blot out the sun."
  pog_become_a_god.0009.a:0 "With my power I consume the last of the spirit."
  pog_become_a_god.1000.t:0 "Discipleship Completed"
- pog_become_a_god.1000.desc:0 "Finally, after months of preparation and cunning I have garnered was I need to sway [target.GetCharacter.GetFirstNameNoTooltip] in the fold. From this day forward they will be a most fervent disciple, spreading my word to the many nations of this world."
+ pog_become_a_god.1000.desc:0 "Finally, after months of preparation and cunning I have garnered was I need to sway [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] in the fold. From this day forward [target.GetSheHe] will be a most fervent disciple, spreading my word to the many nations of this world."
  pog_become_a_god.1000.a:0 "Welcome to the fold my young mortal."
+ pog_become_a_god.1002.t:0 "Apotheosis Reached"
+ pog_become_a_god.1002.desc:0 "Finally, after months of preparation I have cultivated my divine power in a way as to make [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] stronger, faster and smarter. In but a few moments [target.GetSheHe] become a deity, a living god in this mortal world. Who can tell what heights I will reach!"
+ pog_become_a_god.1002.a:0 "Welcome to the hall of gods."
 
 

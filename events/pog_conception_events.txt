@@ -1,0 +1,37 @@
+namespace = pog_conception
+
+pog_conception.0001 = {
+    type = character_event
+	title = pog_conception.0001.t
+    desc = pog_conception.0001.desc
+	theme = seduce_scheme
+	left_portrait = scope:target
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	immediate = {
+		if = {
+			limit = { is_female = yes }
+			save_scope_as = mother
+			scope:target = { save_scope_as = father }
+		}
+
+		else = {
+			save_scope_as = father
+			scope:target = { save_scope_as = mother }
+		}
+	}
+
+	option = {
+		name = pog_conception.0001.a
+		custom_tooltip = pog_conception.0001.a.tt
+
+		scope:mother = {
+			make_pregnant = {
+				father = scope:father
+			}
+		}
+	}
+}

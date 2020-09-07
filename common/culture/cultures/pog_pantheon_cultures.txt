@@ -193,6 +193,99 @@ pantheon_celtic_group = {
     }
 }
 
+pantheon_hellenic_group = {
+    graphical_cultures = {
+        latin_group_coa_gfx
+        western_coa_gfx
+        mediterranean_building_gfx
+        western_clothing_gfx
+        western_unit_gfx
+    }
+    mercenary_names = {
+        { name = "mercenary_company_bull" coat_of_arms = "mc_bull" }
+    }
+
+    pure_hellenic = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+           Pentheos Milon Phokion Mnesikles Melas Nemos Antilokhos Polydoros Akhates Nikias Troilos Hephaestion Parmenides
+           Oenopion Meleagor Mimnermos Polymnestor Polemon Gorgias Plexippos Hermeias Ankaeus Phthisis Tisias Belos Hipponikos
+           Aphareos Zenon Aeson Battos Parmenides Onosandros Euhemeros Eukrates Aketes Polymnestor Neseas Nikomakhos Isagoras
+           Khersiphron Zethos Eurytion Kalos Miltiades Rhadamanthes Mnesitheos Erasmios Strophios Leotykhides Pratinas Strepsiades
+        }
+
+        female_names = {
+            Antianeira Amaltheia Theano Iaso Kynisca Gnathaena Plakia Hipponoë Iphigenia Messene Alkibie Atthis Amynomene Kalanthe
+            Zosima Timoklea Alkmene Pega Aleris Symaethis Thetis Adrastea Iphemedia Melissa Koronis Pantariste Asteria Penthesilea
+            Polymnia Khariklea Aërope Philanthis Kleis Iphito Eulalia Trypheena Siphis Kalliope Hypsikratea Althaea Aethra Deone Molpadia
+            Aminta Orithia Nausikaa Alyssa Persis Megalostrata Timandra Thimaea Androdameia Antea Nereis Phyla Lotis Marpesia Phaethusa
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+			10 = mediterranean_byzantine
+		}
+    }
+
+    fallen_hellenic = {
+        color = { 0.95 0.95 0.75 }
+
+        male_names = {
+            Murchú Odhrán Felimid Maoilín Bairre Ainníleas Éigneachán Anraoi Pádhraic Agaistín Muirin Ciothruadh Manchán
+            Ristéard Séadna Aodh Cearbhall Bearach Flann Pádraig Finghin Maolcholm Finguine Cadhan Aona Úaithne Domhnall
+            Séaonin Donnchadh Oilibhéar Cosnamhach Liadhnán Maodhóg Iósaf Glaisne Connor Eamonn Lochlainn Toirleach
+            Aibhne Colm Niallán Uaitéar Murchú Echmhílidh Donnchadh Cruimín Coilean Daibhi Toimilin Uaithne Muirgheas
+            Naoise Cainneach Coireall Felimid Glasáin Chlaoin Felimid Féthmac Liber Tuama Uilliam Féthchú Earcán Ciarán
+        }
+
+        female_names = {
+            Eirnín Eirnín Moina Cairrean Eilise Órla Eilish Béibhinn Achall Aoibheann Dearlú Brónach Bairrionn Éibhleann
+            Ierne Róisín Dearlú Sárnait Saorfhlaith Aithche Suaibhseach Feidhelm Caitlín Isibéal Deidre Caomhnait Aoibheann
+            Líoch Scáthach Cúach Mairona Taillte Maleia Éabha Ceallach Muireann Banbha Muireacht Ana Aodhamair Annábla
+            Ceara Onóra Teafa Suanach Eimear Aoife Caoimhe Clídna Aithche Feidhelm Rónait Dunla Eistir Dearbhfhorghaill
+        }
+
+        dynasty_of_location_prefix = "dynnp_di"
+
+        patronym_prefix_male = "dynnpat_pre_di"
+        patronym_prefix_female = "dynnpat_pre_di"
+
+
+        # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+        pat_grf_name_chance = 30
+        mat_grf_name_chance = 10
+        father_name_chance = 25
+
+        # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+        pat_grm_name_chance = 20
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+
+        ethnicities = {
+            5 = caucasian_blond
+            30 = caucasian_ginger
+            35 = caucasian_brown_hair
+            30 = caucasian_dark_hair
+        }
+    }
+}
+
 pantheon_slavic_group = {
     graphical_cultures = {
         west_slavic_group_coa_gfx

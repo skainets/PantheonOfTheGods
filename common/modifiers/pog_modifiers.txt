@@ -1,0 +1,11 @@
+attempted_apotheosis = {
+	icon = learning_positive
+}
+
+attempted_discipleship = {
+	icon = diplomacy_positive
+}
+
+attempted_divine_conception = {
+	icon = intrigue_positive
+}

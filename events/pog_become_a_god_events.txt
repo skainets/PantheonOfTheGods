@@ -40,7 +40,7 @@ pog_become_a_god.0001 = {
 		name = pog_become_a_god.0001.a
 		custom_tooltip = "pog.tooltip.becomagod.0001.a"
 
-		scope:religious_head = {
+		faith:religious_head = {
 			add_opinion = {
 				target = root
 				modifier = impious_opinion
@@ -349,7 +349,7 @@ pog_become_a_god.0008 = {
 		add_character_flag = { flag = pog_godhood_acquired }
 
 		trigger_event = {
-			id = pog_religion_culture.00000
+			id = pog_religion_culture.1000
 			days = 30
 		}
 	}
@@ -375,7 +375,7 @@ pog_become_a_god.0009 = {
 		add_character_flag = { flag = pog_godhood_acquired }
 
 		trigger_event = {
-			id = pog_religion_culture.0000
+			id = pog_religion_culture.2000
 			days = 30
 		}
 	}
@@ -420,6 +420,66 @@ pog_become_a_god.1000 = {
 
 	option = {
 		name = pog_become_a_god.1000.a
+	}
+}
+
+pog_become_a_god.1002 = {
+	type = character_event
+	title = pog_become_a_god.1002.t
+	desc = pog_become_a_god.1002.desc
+
+	theme = crown
+
+	left_portrait = {
+		character = scope:owner
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = scope:target
+		animation = personality_bold
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				scope:owner = { has_trait = fallen_deity }
+			}
+			scope:target = {
+				remove_trait = demi_deity
+				remove_trait = blood_of_gods
+				remove_trait = undying
+				add_trait = fallen_deity
+
+				add_opinion = {
+					target = scope:actor
+					modifier = grateful_opinion
+					opinion = 50
+				}
+			}
+		}
+		else = {
+			scope:target = {
+				remove_trait = demi_deity
+				remove_trait = blood_of_gods
+				remove_trait = undying
+				add_trait = pure_deity
+
+				add_opinion = {
+					target = scope:actor
+					modifier = grateful_opinion
+					opinion = 50
+				}
+			}
+		}
+
+		save_scope_value_as = { #Save scheme success
+			name = scheme_successful
+			value = flag:disciples
+		}
+	}
+
+	option = {
+		name = pog_become_a_god.1002.a
 	}
 }
 

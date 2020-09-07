@@ -1,199 +1,272 @@
 disciple_interaction = {
-    category = interaction_category_friendly
-    desc = disciple_interaction_desc
-    common_interaction = yes
-    interface_priority = 70
+  category = interaction_category_friendly
+  desc = disciple_interaction_desc
+  common_interaction = yes
+  interface_priority = 70
 
-    scheme = disciple
+  scheme = disciple
 
-    send_name = START_SCHEME
-    ignores_pending_interaction_block = yes
+  send_name = START_SCHEME
+  ignores_pending_interaction_block = yes
 
-    auto_accept = yes
+  auto_accept = yes
 
-    is_shown = {
-        NOT = { scope:recipient = scope:actor }
+  is_shown = {
+    NOT = { scope:recipient = scope:actor }
+    scope:actor = {
+      OR = {
+        has_trait = fallen_deity
+        has_trait = pure_deity
+      }
+    }
+    scope:recipient = {
+      OR = {
+        NOT = { has_trait = fallen_deity }
+        NOT = { has_trait = pure_deity }
+        NOT = { has_trait = blood_of_gods }
+        NOT = { has_trait = demi_deity }
+      }
+    }
+  }
+
+  is_valid_showing_failures_only = {
+    scope:actor = {
+      can_start_scheme = {
+        type = disciple
+        target = scope:recipient
+      }
+    }
+  }
+
+  desc = {
+    triggered_desc = {
+      trigger = {
         scope:actor = {
-          OR = {
-            has_trait = fallen_deity
-            has_trait = pure_deity
+          NOT = { is_at_war_with = scope:recipient }
+          can_start_scheme = {
+            type = disciple
+            target = scope:recipient
           }
         }
-        scope:recipient = {
-          OR = {
-            NOT = { has_trait = fallen_deity }
-            NOT = { has_trait = pure_deity }
-            NOT = { has_trait = blood_of_gods }
-            NOT = { has_trait = demi_deity }
-          }
-        }
+      }
+      desc = scheme_interaction_tt_disciple_approved
     }
+  }
 
-    is_valid_showing_failures_only = {
+  on_accept = {
+    scope:actor = {
+      stress_impact = {
+        shy = medium_stress_impact_gain
+      }
+    }
+    hidden_effect = {
       scope:actor = {
-        can_start_scheme = {
-          type = disciple
-          target = scope:recipient
-        }
-      }
-    }
+        send_interface_toast = {
+          title = disciple_interaction_notification
 
-    desc = {
-      triggered_desc = {
-        trigger = {
-          scope:actor = {
-            NOT = { is_at_war_with = scope:recipient }
-            can_start_scheme = {
-              type = disciple
-              target = scope:recipient
-            }
+          left_icon = scope:actor
+          right_icon = scope:recipient
+
+          start_scheme = {
+            type = disciple
+            target = scope:recipient
           }
         }
-        desc = scheme_interaction_tt_disciple_approved
       }
-    }
-
-    on_accept = {
-      scope:actor = {
-        stress_impact = {
-          shy = medium_stress_impact_gain
+      if = { #Stubborness effect
+        limit = {
+          scope:recipient = {
+            has_trait = stubborn
+          }
         }
-      }
-      hidden_effect = {
         scope:actor = {
-          send_interface_toast = {
-            title = disciple_interaction_notification
-  
-            left_icon = scope:actor			
-            right_icon = scope:recipient
-  
-            start_scheme = {
-              type = disciple
-              target = scope:recipient
+          random_scheme = {
+            limit = {
+              scheme_type = disciple
+              scheme_target = scope:recipient
             }
-          }
-        }
-        if = { #Stubborness effect
-          limit = {
-            scope:recipient = {
-              has_trait = stubborn
-            }
-          }
-          scope:actor = {
-            random_scheme = {
-              limit = {
-                scheme_type = disciple
-                scheme_target = scope:recipient
-              }
-              scheme_target = {
-                random_list = {
-                  20 = {
-                    set_variable = {
-                      name = recipient_stubborness_scheme
-                      value = -5
-                    }
+            scheme_target = {
+              random_list = {
+                20 = {
+                  set_variable = {
+                    name = recipient_stubborness_scheme
+                    value = -5
                   }
-                  20 = {
-                    set_variable = {
-                      name = recipient_stubborness_scheme
-                      value = -10
-                    }
+                }
+                20 = {
+                  set_variable = {
+                    name = recipient_stubborness_scheme
+                    value = -10
                   }
-                  20 = {
-                    set_variable = {
-                      name = recipient_stubborness_scheme
-                      value = -15
-                    }
+                }
+                20 = {
+                  set_variable = {
+                    name = recipient_stubborness_scheme
+                    value = -15
                   }
-                  20 = {
-                    set_variable = {
-                      name = recipient_stubborness_scheme
-                      value = -20
-                    }
+                }
+                20 = {
+                  set_variable = {
+                    name = recipient_stubborness_scheme
+                    value = -20
                   }
-                  20 = {
-                    set_variable = {
-                      name = recipient_stubborness_scheme
-                      value = -25
-                    }
+                }
+                20 = {
+                  set_variable = {
+                    name = recipient_stubborness_scheme
+                    value = -25
                   }
                 }
               }
             }
           }
         }
-     }
+      }
+    }
   }
 }
 
 apotheosis_interaction = {
-	category = interaction_category_friendly
+  category = interaction_category_friendly
 
-	desc = apotheosis_interaction_desc
+  desc = apotheosis_interaction_desc
+  common_interaction = yes
+  interface_priority = 70
 
-	is_shown = {
-		scope:recipient = {
-      is_adult = yes
+  cost = {
+    piety = 500
+  }
+
+  scheme = apotheosis
+
+  send_name = START_SCHEME
+  ignores_pending_interaction_block = yes
+
+  auto_accept = yes
+
+  is_shown = {
+    NOT = { scope:recipient = scope:actor }
+    scope:actor = {
       OR = {
-        has_trait = disciple_pure
-        has_trait = disciple_fallen
-      }
-		}
-		scope:actor = {
-			OR = {
         has_trait = fallen_deity
         has_trait = pure_deity
-			}
-		}
-	}
+      }
+    }
+    scope:recipient = {
+      OR = {
+        NOT = { has_trait = fallen_deity }
+        NOT = { has_trait = pure_deity }
+        NOT = { has_trait = young_fallen_deity }
+        NOT = { has_trait = young_pure_deity }
+      }
+    }
+  }
 
-	cost = {
-		piety = 500
-	}
-	
-	on_accept = {
-		scope:actor = {
-			send_interface_message = {
-				type = event_generic_neutral
-				title = msg_apotheosis_interaction_title
-        desc = msg_apotheosis_interaction_desc
-				right_icon = scope:recipient
-			}
-		}
-		scope:recipient = {
-      remove_trait = disciple_fallen
-      remove_trait = disciple_pure
-      remove_trait = demi_deity
-      remove_trait = undying
+  is_valid_showing_failures_only = {
+    scope:actor = {
+      can_start_scheme = {
+        type = apotheosis
+        target = scope:recipient
+      }
+    }
+  }
 
-			if = {
-				add_opinion = {
-					target = scope:actor
-					modifier = grateful_opinion
-					opinion = 50
-				}
-			}
-      if = {
-        limit = {
-          scope:actor = { has_trait = fallen_deity }
+  desc = {
+    triggered_desc = {
+      trigger = {
+        scope:actor = {
+          NOT = { is_at_war_with = scope:recipient }
+          can_start_scheme = {
+            type = apotheosis
+            target = scope:recipient
+          }
         }
-        add_trait = fallen_deity
       }
-      else = {
-        add_trait = pure_deity
+      desc = scheme_interaction_tt_apotheosis_approved
+    }
+  }
+
+  on_accept = {
+    scope:actor = {
+      stress_impact = {
+        shy = medium_stress_impact_gain
       }
-		}
-	}
-	
-	auto_accept = yes
+    }
+    hidden_effect = {
+      scope:actor = {
+        send_interface_toast = {
+          title = apotheosis_interaction_notification
+
+          left_icon = scope:actor
+          right_icon = scope:recipient
+
+          start_scheme = {
+            type = apotheosis
+            target = scope:recipient
+          }
+        }
+      }
+      if = { #Stubborness effect
+        limit = {
+          scope:recipient = {
+            has_trait = stubborn
+          }
+        }
+        scope:actor = {
+          random_scheme = {
+            limit = {
+              scheme_type = disciple
+              scheme_target = scope:recipient
+            }
+            scheme_target = {
+              random_list = {
+                20 = {
+                  set_variable = {
+                    name = recipient_stubborness_scheme
+                    value = -5
+                  }
+                }
+                20 = {
+                  set_variable = {
+                    name = recipient_stubborness_scheme
+                    value = -10
+                  }
+                }
+                20 = {
+                  set_variable = {
+                    name = recipient_stubborness_scheme
+                    value = -15
+                  }
+                }
+                20 = {
+                  set_variable = {
+                    name = recipient_stubborness_scheme
+                    value = -20
+                  }
+                }
+                20 = {
+                  set_variable = {
+                    name = recipient_stubborness_scheme
+                    value = -25
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  auto_accept = yes
 }
 
 bless_interaction = {
-	category = interaction_category_friendly
+  category = interaction_category_friendly
 
-	desc = bless_interaction_desc
+  desc = bless_interaction_desc
 
-	is_shown = {
+  is_shown = {
     scope:recipient = {
       NOR = {
         has_trait = fallen_deity
@@ -203,20 +276,20 @@ bless_interaction = {
         has_character_flag = pog_blessed_mortal
       }
     }
-		scope:actor = {
-			OR = {
+    scope:actor = {
+      OR = {
         has_trait = fallen_deity
         has_trait = pure_deity
-			}
-		}
-	}
+      }
+    }
+  }
 
-	cost = {
-		piety = 250
-	}
-	
-	on_accept = {
-		scope:recipient = {
+  cost = {
+    piety = 250
+  }
+
+  on_accept = {
+    scope:recipient = {
       random_list = {
         50 = {
           add_trait = intellect_good_1
@@ -243,26 +316,26 @@ bless_interaction = {
 
       add_health = 3
 
-			if = {
-				add_opinion = {
-					target = scope:actor
-					modifier = grateful_opinion
-					opinion = 25
-				}
+      if = {
+        add_opinion = {
+          target = scope:actor
+          modifier = grateful_opinion
+          opinion = 25
+        }
       }
       add_character_flag = { flag = pog_blessed_mortal }
     }
   }
-	
-	auto_accept = yes
+
+  auto_accept = yes
 }
 
 curse_interaction = {
-	category = interaction_category_friendly
+  category = interaction_category_friendly
 
-	desc = curse_interaction_desc
+  desc = curse_interaction_desc
 
-	is_shown = {
+  is_shown = {
     scope:recipient = {
       NOR = {
         has_trait = fallen_deity
@@ -272,20 +345,20 @@ curse_interaction = {
         has_character_flag = pog_cursed_mortal
       }
     }
-		scope:actor = {
-			OR = {
+    scope:actor = {
+      OR = {
         has_trait = fallen_deity
         has_trait = pure_deity
-			}
-		}
-	}
+      }
+    }
+  }
 
-	cost = {
-		piety = 250
-	}
-	
-	on_accept = {
-		scope:recipient = {
+  cost = {
+    piety = 250
+  }
+
+  on_accept = {
+    scope:recipient = {
       random_list = {
         50 = {
           add_trait = intellect_bad_1
@@ -312,25 +385,25 @@ curse_interaction = {
 
       add_health = -3
 
-			if = {
-				add_opinion = {
-					target = scope:actor
-					opinion = -35
-				}
+      if = {
+        add_opinion = {
+          target = scope:actor
+          opinion = -35
+        }
       }
       add_character_flag = { flag = pog_cursed_mortal }
     }
   }
-	
-	auto_accept = yes
+
+  auto_accept = yes
 }
 
 undying_interaction = {
-	category = interaction_category_deity
+  category = interaction_category_deity
 
-	desc = undying_interaction_desc
+  desc = undying_interaction_desc
 
-	is_shown = {
+  is_shown = {
     scope:recipient = {
       NOR = {
         has_trait = fallen_deity
@@ -340,31 +413,482 @@ undying_interaction = {
       }
       has_character_flag = pog_blessed_mortal
     }
-		scope:actor = {
-			OR = {
+    scope:actor = {
+      OR = {
         has_trait = fallen_deity
         has_trait = pure_deity
-			}
-		}
-	}
-
-	cost = {
-		piety = 350
-	}
-	
-	on_accept = {
-		scope:recipient = {
-      add_trait = undying
-
-			if = {
-				add_opinion = {
-					target = scope:actor
-					modifier = grateful_opinion
-					opinion = 35
-				}
       }
     }
   }
-	
-	auto_accept = yes
+
+  cost = {
+    piety = 350
+  }
+
+  on_accept = {
+    scope:recipient = {
+      add_trait = undying
+
+      if = {
+        add_opinion = {
+          target = scope:actor
+          modifier = grateful_opinion
+          opinion = 35
+        }
+      }
+    }
+  }
+
+  auto_accept = yes
+}
+
+divine_conception_interaction = {
+  category = interaction_category_friendly
+  interface_priority = 90
+  scheme = divine_conception
+
+  send_name = START_SCHEME
+  ignores_pending_interaction_block = yes
+
+  ai_targets = {
+    ai_recipients = family
+    max = 5
+  }
+  ai_targets = {
+    ai_recipients = guests
+    ai_recipients = courtiers
+  }
+
+  # We don't want this to grow ludicrously large in big realms
+  ai_targets = {
+    ai_recipients = realm_characters
+    max = 30
+  }
+
+  ai_target_quick_trigger = {
+    adult = yes
+    attracted_to_owner = yes
+    owner_attracted = yes
+  }
+  ai_frequency = 36
+
+  is_shown = {
+    NOT = { scope:actor = scope:recipient }
+    scope:recipient = { is_adult = yes }
+    scope:actor = {
+      is_adult = yes
+      OR = {
+        has_trait = young_pure_deity
+        has_trait = young_fallen_deity
+        has_trait = pure_deity
+        has_trait = fallen_deity
+      }
+    }
+    trigger_if = {
+      limit = {
+        scope:actor = {
+          is_ai = yes
+          OR = {
+            has_trait = young_pure_deity
+            has_trait = young_fallen_deity
+            has_trait = pure_deity
+            has_trait = fallen_deity
+          }
+        }
+      }
+      NOT = {
+        scope:recipient = {
+          is_lowborn = yes
+          is_landed = no
+          NOR = {
+            is_courtier_of = scope:actor
+            is_foreign_court_or_pool_guest_of = scope:actor
+          }
+        }
+      }
+    }
+  }
+
+  is_valid_showing_failures_only = {
+    scope:actor = {
+      NOT = { is_at_war_with = scope:recipient }
+      can_start_scheme = {
+        type = seduce
+        target = scope:recipient
+      }
+    }
+    trigger_if = {
+      limit = {
+        scope:recipient = { exists = primary_spouse }
+      }
+      scope:recipient = { primary_spouse = { NOT = { has_strong_hook = scope:actor } } }
+    }
+  }
+
+  desc = scheme_interaction_tt_seduce_approved
+
+  on_accept = {
+    seduce_interaction_stress_effect = yes
+
+    hidden_effect = {
+      scope:actor = {
+        send_interface_toast = {
+          title = divine_conception_interaction_notification
+
+          left_icon = scope:actor
+          right_icon = scope:recipient
+
+          start_scheme = {
+            type = divine_conception
+            target = scope:recipient
+          }
+
+          show_as_tooltip = { seduce_interaction_stress_effect = yes }
+        }
+        if = {
+          limit = {
+            NOT = { is_attracted_to_gender_of = scope:recipient }
+          }
+          custom_tooltip = scheme_interaction_tt.wrong_gender_no_lover
+        }
+      }
+    }
+  }
+
+  ai_potential = {
+    is_ai = no
+    # is_adult = yes
+    # NOR = {
+    # 	has_trait = celibate
+    # 	has_trait = chaste
+    # 	any_scheme = {
+    # 		OR = {
+    # 			scheme_type = befriend
+    # 			scheme_type = sway
+    # 			scheme_type = seduce
+    # 			scheme_type = courting
+    # 			scheme_type = elope
+    # 		}
+    # 	}
+    # 	primary_title = {
+    # 		is_mercenary_company = yes
+    # 	}
+    # 	AND = { # No one cares about City barons
+    # 		is_lowborn = yes
+    # 		primary_title.tier <= tier_barony
+    # 	}
+    # }
+  }
+
+  auto_accept = yes
+
+  ai_will_do = {
+    base = 5
+
+    modifier = {
+      add = -50
+      scope:actor = {
+        exists = primary_spouse
+        primary_spouse = { has_strong_hook = scope:actor }
+      }
+    }
+
+    modifier = {
+      add = 50
+      scope:actor = {
+        has_focus = intrigue_temptation_focus
+      }
+    }
+
+    modifier = { # Focus on befriending if that's the path you've chosen
+      add = -50
+      scope:actor = {
+        has_perk = befriend_perk
+      }
+    }
+
+    modifier = { # Non-lustful clergy tend to not seduce
+      add = -25
+      scope:actor = {
+        is_clergy = yes
+        faith = {
+          NOT = { has_doctrine_parameter = clergy_can_marry }
+        }
+        NOR = {
+          has_trait = lustful
+          has_focus = intrigue_temptation_focus
+        }
+      }
+    }
+
+    modifier = { # Seducing your unmarried courtiers is good for producing bastards, which the AI will want to do if they have few heirs
+      add = 10
+      scope:actor = {
+        any_child = {
+          count <= 1
+        }
+      }
+      scope:recipient = {
+        is_married = no
+        fertility > low_fertility
+        OR = {
+          is_courtier_of = scope:actor
+          is_pool_guest_of = scope:actor
+        }
+      }
+    }
+
+    modifier = {
+      add = 30
+      scope:actor = {
+        has_trait = lustful
+      }
+    }
+
+    modifier = { # ( ͡° ͜ʖ ͡°)
+      add = 50
+      scope:actor = {
+        is_close_or_extended_family_of = scope:recipient
+        is_deviant_trigger = yes
+      }
+      scope:recipient = {
+        OR = {
+          is_deviant_trigger = yes
+          has_trait = lustful
+        }
+      }
+    }
+
+    modifier = {
+      add = 25
+      scope:actor = {
+        is_close_or_extended_family_of = scope:recipient
+        is_deviant_trigger = yes
+      }
+      scope:recipient = {
+        NOR = {
+          is_deviant_trigger = yes
+          has_trait = lustful
+        }
+      }
+    }
+
+    modifier = {
+      add = 50
+      scope:actor = {
+        is_close_or_extended_family_of = scope:recipient
+        faith = { has_doctrine = tenet_divine_marriage }
+      }
+    }
+
+    modifier = { # Seducing the spouse of your rival is good drama...
+      add = 25
+      scope:recipient = {
+        exists = primary_spouse
+        primary_spouse = {
+          OR = {
+            has_relation_rival = scope:actor
+            has_relation_nemesis = scope:actor
+          }
+        }
+      }
+    }
+
+    modifier = {
+      add = -20
+      scope:actor = {
+        NOR = {
+          has_trait = lustful
+          has_trait = arbitrary
+          is_deviant_trigger = yes
+          faith = { has_doctrine = tenet_divine_marriage }
+          has_perk = subtle_desire_perk
+        }
+      }
+      scope:recipient = {
+        is_close_family_of = scope:actor
+      }
+    }
+
+    modifier = { # Seducing someone's spouse is not a clever prospect for most characters, so lowering the attractiveness a bit
+      add = -20
+      scope:recipient = {
+        is_married = yes
+        NOT = {
+          primary_spouse = scope:actor
+        }
+      }
+      scope:actor = {
+        NOR = {
+          has_trait = lustful
+          has_focus = intrigue_temptation_focus
+        }
+      }
+    }
+
+    modifier = { # Try to avoid agressive seduction unless you're geared for it
+      add = -10
+      scope:actor = {
+        NOR = {
+          has_trait = lustful
+          has_focus = intrigue_temptation_focus
+        }
+      }
+      scope:recipient = {
+        is_lowborn = no
+        NOT = { is_pool_guest_of = scope:actor }
+      }
+    }
+
+    modifier = {
+      factor = 1.25
+      scope:recipient = {
+        number_of_personality_traits_in_common = {
+          target = scope:actor
+          value >= 1
+        }
+      }
+    }
+
+    modifier = {
+      factor = 1.5
+      scope:recipient = {
+        number_of_personality_traits_in_common = {
+          target = scope:actor
+          value >= 2
+        }
+      }
+    }
+
+    modifier = {
+      factor = 2
+      scope:recipient = {
+        number_of_personality_traits_in_common = {
+          target = scope:actor
+          value >= 3
+        }
+      }
+    }
+
+    modifier = {
+      factor = 1.5
+      scope:recipient = {
+        is_landed = yes
+      }
+    }
+
+    modifier = { # Target the player less aggressively
+      factor = 0.5
+      scope:recipient = {
+        OR = {
+          is_ai = no
+          any_consort = {
+            is_ai = no
+          }
+        }
+      }
+    }
+
+    modifier = {
+      factor = 1.25
+      scope:recipient = {
+        OR = {
+          has_trait = lustful
+          has_trait = beauty_good
+        }
+      }
+    }
+
+    modifier = { # Try to avoid 0% success chance
+      factor = {
+        value = 0.1
+        if = {
+          limit = {
+            scope:recipient = {
+              opinion = {
+                target = scope:actor
+                value < -15
+              }
+            }
+          }
+          value = 0
+        }
+      }
+      scope:recipient = {
+        opinion = {
+          target = scope:actor
+          value < -5
+        }
+      }
+    }
+
+    modifier = { # Try to avoid 0% success chance
+      factor = 0.1
+      scope:recipient = {
+        number_of_opposing_personality_traits = {
+          target = scope:actor
+          value >= 1
+        }
+      }
+    }
+
+    modifier = {
+      factor = 0.75
+      scope:recipient = {
+        is_lowborn = yes
+      }
+    }
+
+    modifier = { # Barons tend to not seduce anyone landed above them
+      factor = 0.1
+      scope:actor = {
+        is_landed = yes
+        primary_title = {
+          tier = tier_barony
+        }
+      }
+      scope:recipient = {
+        OR = {
+          AND = {
+            is_landed = yes
+            primary_title = {
+              tier > tier_barony
+            }
+          }
+          any_spouse = {
+            is_landed = yes
+            primary_title = {
+              tier > tier_barony
+            }
+          }
+        }
+      }
+    }
+
+    modifier = {
+      factor = 0.2
+      scope:recipient = {
+        is_ai = yes
+        any_targeting_scheme = {
+          scheme_type = seduce
+        }
+      }
+    }
+
+    modifier = { #
+      factor = 0.1
+      scope:recipient = {
+        is_ai = yes
+        has_trait = chaste
+      }
+    }
+
+    modifier = {
+      factor = 0
+      scope:recipient = {
+        is_ai = yes
+        num_of_relation_soulmate > 0
+      }
+    }
+  }
 }

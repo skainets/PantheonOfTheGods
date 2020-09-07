@@ -200,6 +200,18 @@ pantheon_pure_religion = {
             doctrine = tenet_ritual_celebrations
             doctrine = tenet_sanctity_of_nature
         }
+        pure_hellenic_pantheon = {
+            color = { 0.2 0.6 1.0 }
+            graphical_faith = "pagan_gfx"
+
+            holy_site = athens
+            holy_site = sparta
+            holy_site = carthage
+
+            doctrine = tenet_polyamory
+            doctrine = tenet_ritual_celebrations
+            doctrine = tenet_divine_blood
+        }
         pure_slavic_pantheon = {
             color = { 0.4 0.2 0.2 }
             graphical_faith = "pagan_gfx"
@@ -495,6 +507,18 @@ pantheon_fallen_religion = {
             doctrine = tenet_polyamory
             doctrine = tenet_ritual_celebrations
             doctrine = tenet_sanctity_of_nature
+        }
+        fallen_hellenic_pantheon = {
+            color = { 0.2 0.6 1.0 }
+            graphical_faith = "pagan_gfx"
+
+            holy_site = athens
+            holy_site = sparta
+            holy_site = carthage
+
+            doctrine = tenet_polyamory
+            doctrine = tenet_ritual_celebrations
+            doctrine = tenet_divine_marriage
         }
         fallen_slavic_pantheon = {
             color = { 0.4 0.2 0.2 }

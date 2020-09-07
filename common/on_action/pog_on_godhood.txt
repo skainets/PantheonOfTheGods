@@ -1,8 +1,8 @@
-random_yearly_playable_pulse = {
-	events = {
-		pog_become_a_god.0001
-	}
-}
+# random_yearly_playable_pulse = {
+# 	events = {
+# 		pog_become_a_god.0001
+# 	}
+# }
 
 random_yearly_everyone_pulse = {
 	trigger = {

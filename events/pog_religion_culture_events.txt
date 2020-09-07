@@ -1,10 +1,10 @@
 namespace = pog_religion_culture
 
 # Religion conversion
-pog_religion_culture.0000 = {
+pog_religion_culture.1000 = {
     type = character_event
-    title = pog_religion_culture.0000.t
-    desc = pog_religion_culture.0000.desc
+    title = pog_religion_culture.1000.t
+    desc = pog_religion_culture.1000.desc
     theme = family
 
     left_portrait = {
@@ -13,7 +13,7 @@ pog_religion_culture.0000 = {
     }
 
     option = {
-        name = pog_religion_culture.0000.a
+        name = pog_religion_culture.1000.a
         custom_tooltip = "pog.tooltip.conversion.interim"
 
         trigger_event = {
@@ -23,10 +23,10 @@ pog_religion_culture.0000 = {
     }
 }
 
-pog_religion_culture.00000 = {
+pog_religion_culture.2000 = {
     type = character_event
-    title = pog_religion_culture.00000.t
-    desc = pog_religion_culture.00000.desc
+    title = pog_religion_culture.2000.t
+    desc = pog_religion_culture.2000.desc
     theme = war
 
     left_portrait = {
@@ -35,7 +35,7 @@ pog_religion_culture.00000 = {
     }
 
     option = {
-        name = pog_religion_culture.00000.a
+        name = pog_religion_culture.2000.a
         custom_tooltip = "pog.tooltip.conversion.interim"
 
         trigger_event = {
@@ -82,6 +82,15 @@ pog_religion_culture.0001 = {
         root = {
             set_character_faith_with_conversion  = faith:pure_celtic_pantheon
             set_culture = culture:pure_celtic
+        }
+    }
+    option = {
+        name = pog_religion_culture.0001.k
+        custom_tooltip = "pog.tooltip.conversion.hellenic"
+
+       root = {
+            set_character_faith_with_conversion  = faith:pure_hellenic_pantheon
+            set_culture = culture:pure_hellenic
         }
     }
     option = {
@@ -192,6 +201,15 @@ pog_religion_culture.0002 = {
         root = {
             set_character_faith_with_conversion = faith:fallen_celtic_pantheon
             set_culture = culture:fallen_celtic
+        }
+    }
+    option = {
+        name = pog_religion_culture.0002.k
+        custom_tooltip = "pog.tooltip.conversion.hellenic"
+
+       root = {
+            set_character_faith_with_conversion  = faith:fallen_hellenic_pantheon
+            set_culture = culture:fallen_hellenic
         }
     }
     option = {

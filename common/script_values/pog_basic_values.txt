@@ -1,0 +1,1 @@
+divine_conception_chance = 1000

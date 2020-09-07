@@ -2,6 +2,7 @@
  # Culture groups
  pantheon_abrahamic_group:0 "Abrahamic Pantheon"
  pantheon_celtic_group:0 "Celtic Pantheon"
+ pantheon_hellenic_group:0 "Greco-Roman Pantheon"
  pantheon_slavic_group:0 "Slavic Pantheon"
  pantheon_norse_group:0 "Norse Pantheon"
  pantheon_eastern_group:0 "Eastern Pantheon"
@@ -15,6 +16,8 @@
  fallen_abrahamic:0 "Underworld"
  pure_celtic:0 "Tuatha"
  fallen_celtic:0 "Mor"
+ pure_hellenic:0 "Hellenismos"
+ fallen_hellenic:0 "Hadic"
  pure_slavic:0 "Biały"
  fallen_slavic:0 "Czarny"
  pure_norse:0 "Azygard"
