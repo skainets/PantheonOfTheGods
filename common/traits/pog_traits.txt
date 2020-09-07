@@ -1,7 +1,7 @@
 @pos_compat_mortal_enemies = -100
 
 pure_deity = {
-	index = 610
+	index = 90000
 
 	opposites = {
 		fallen_deity
@@ -42,11 +42,11 @@ pure_deity = {
 			desc = trait_pure_god
 		}
 	}
-	
+
 }
 
 fallen_deity = {
-	index = 611
+	index = 90001
 
 	opposites = {
 		pure_deity
@@ -87,11 +87,11 @@ fallen_deity = {
 			desc = trait_fallen_god
 		}
 	}
-	
+
 }
 
 demi_deity = {
-	index = 612
+	index = 90002
 
 	diplomacy = 10
 	intrigue = 10
@@ -122,7 +122,7 @@ demi_deity = {
 }
 
 blood_of_gods = {
-	index = 613
+	index = 90003
 
 	diplomacy = 5
 	intrigue = 5
@@ -141,7 +141,7 @@ blood_of_gods = {
 }
 
 god_of_light_1 = {
-	index = 614
+	index = 90004
 
 	good = yes
 
@@ -150,7 +150,7 @@ god_of_light_1 = {
 }
 
 god_of_light_2 = {
-	index = 615
+	index = 90005
 
 	good = yes
 
@@ -159,7 +159,7 @@ god_of_light_2 = {
 }
 
 god_of_light_3 = {
-	index = 616
+	index = 90006
 
 	good = yes
 
@@ -168,7 +168,7 @@ god_of_light_3 = {
 }
 
 god_of_darkness_1 = {
-	index = 617
+	index = 90007
 
 	good = yes
 
@@ -177,7 +177,7 @@ god_of_darkness_1 = {
 }
 
 god_of_darkness_2 = {
-	index = 618
+	index = 90008
 
 	good = yes
 
@@ -186,7 +186,7 @@ god_of_darkness_2 = {
 }
 
 god_of_darkness_3 = {
-	index = 619
+	index = 90009
 
 	good = yes
 
@@ -195,15 +195,15 @@ god_of_darkness_3 = {
 }
 
 undying = {
-	index = 620
-	
+	index = 90010
+
 	immortal = yes
 	health = 10
 }
 
 disciple_pure = {
-	index = 621
-	
+	index = 90011
+
 	opposites = {
 		fallen_deity
 		young_fallen_deity
@@ -212,7 +212,7 @@ disciple_pure = {
 }
 
 disciple_fallen = {
-	index = 622
+	index = 90012
 
 	opposites = {
 		pure_deity
@@ -224,7 +224,7 @@ disciple_fallen = {
 }
 
 young_pure_deity = {
-	index = 623
+	index = 90013
 
 	opposites = {
 		fallen_deity
@@ -264,11 +264,11 @@ young_pure_deity = {
 			desc = trait_young_pure_god
 		}
 	}
-	
+
 }
 
 young_fallen_deity = {
-	index = 624
+	index = 90014
 
 	opposites = {
 		pure_deity
@@ -308,11 +308,11 @@ young_fallen_deity = {
 			desc = trait_young_fallen_god
 		}
 	}
-	
+
 }
 
 selenes_blessing = {
-	index = 625
+	index = 90015
 
 	genetic = yes
 	physical = yes

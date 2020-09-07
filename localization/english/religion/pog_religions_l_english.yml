@@ -11,7 +11,7 @@
  pantheon_fallen_religion_adherent_plural:0 "Fallen Pantheonists"
  pantheon_fallen_religion_desc:0 "Focused on the many gods and cultures of the fallen gods. Those who adhere to pantheon of fallen gods oppose the purity and kindess of other gods. They seek only to ravage and destroy, making the mortal plain their dominion, finding fervour in cruelty and barbaric acts of genocide. "
 
- #Abrahamic Faith
+ # Abrahamic Faith
  pure_abrahamic_pantheon:0 "Angelic Pantheon"
  pure_abrahamic_pantheon_adj:0 "Angelic"
  pure_abrahamic_pantheon_adherent:0 "Angelic Postrate"
@@ -23,7 +23,7 @@
  fallen_abrahamic_pantheon_adherent_plural:0 "Demonic Supplicants"
  fallen_abrahamic_pantheon_desc:0 "The Demonic Supplicants seek and follow the pantheon of demons. Thought to be created by one single being, all gods under the Demonic Supplicants believe that one must choose either light or dark, angel or demon. The world is full of good and evil, thus conflict will arise when they come into contact."
 
- #Celtic Faith
+ # Celtic Faith
  pure_celtic_pantheon:0 "Tuath Dé Pantheon"
  pure_celtic_pantheon_adj:0 "Tuath Dé"
  pure_celtic_pantheon_adherent:0 "Child of Dé"
@@ -35,7 +35,7 @@
  fallen_celtic_pantheon_adherent_plural:0 "Devils of Mor"
  fallen_celtic_pantheon_desc:0 "Dagda Mor refers to the fallen tribe of gods, the evil and twisted deities of the otherwold. Much like other pantheons, the gods of the Dagda Mor Pantheon are constantly at war with their enemies the Tuath Dé. The cruelty and horror of the Dagda more know no bounds, and any tool can and will be used as a force for oppression and domination."
 
- #Slavic Faith
+ # Slavic Faith
  pure_slavic_pantheon:0 "Belobog's Pantheon"
  pure_slavic_pantheon_adj:0 "Belobog"
  pure_slavic_pantheon_adherent:0 "Courtier of Belobog"
@@ -47,7 +47,7 @@
  fallen_slavic_pantheon_adherent_plural:0 "Courtier of Chernobog"
  fallen_slavic_pantheon_desc:0 "Chernobog is death, the slavic god of darkness. As the giver of death and corruption, all gods under him in the mortal plane must bow and seed glorious corruption. They must kill, corrupt and destroy all who oppose him, and bring his dominion onto the earth. They must also fight and blot out all followers of the god of light, and purge them from the mortal plane."
 
- #Norse Faith
+ # Norse Faith
  pure_norse_pantheon:0 "Odyn's Pantheon"
  pure_norse_pantheon_adj:0 "Odynor"
  pure_norse_pantheon_adherent:0 "Warrior of Odyn"
@@ -59,7 +59,7 @@
  fallen_norse_pantheon_adherent_plural:0 "Army of the Jotuun"
  fallen_norse_pantheon_desc:0 "The Jotuun are those who rebelled against the might of Odyn. They forever garner their black hearts and hatred for the other gods, seeding madness and cruelty into the world wherever they may. Always at the expense of the gods of Odyn's Court."
 
-#Eastern Faith
+# Eastern Faith
  pure_eastern_pantheon:0 "Shàngdì Pantheon"
  pure_eastern_pantheon_adj:0 "Shàngdì"
  pure_eastern_pantheon_adherent:0 "Dì Tiān"
@@ -71,7 +71,7 @@
  fallen_eastern_pantheon_adherent_plural:0 "Wēnshén Spirits"
  fallen_eastern_pantheon_desc:0 "The Wēnshén spirits seek one thing, death. The gods of Wēnshén hold plague, murder and sickness to be above all the greatest priorities of mortal tampering. The Wēnshén sprits must at all times seek to destroy the cosmic harmony wrought by the gods of Dì Tiān."
 
- #Hindu Faith
+ # Hindu Faith
  pure_hindu_pantheon:0 "Vaishnavism Pantheon"
  pure_hindu_pantheon_adj:0 "Vaishnavist"
  pure_hindu_pantheon_adherent:0 "Vaishnavist"
@@ -83,7 +83,7 @@
  fallen_hindu_pantheon_adherent_plural:0 "Virabhadras"
  fallen_hindu_pantheon_desc:0 "The gods of Virabhadra are nothing but corrupted deities, lured by fantasy of genocide, murder and torture. They seek to always taint the image of the gods of Vaishnavism, ever seeking to destroy what was created and corrupt whatever is left."
 
- #Egyptian Faith
+ # Egyptian Faith
  pure_egyptian_pantheon:0 "Ra's Pantheon"
  pure_egyptian_pantheon_adj:0 "Ra"
  pure_egyptian_pantheon_adherent:0 "Ra'aat"
@@ -95,7 +95,7 @@
  fallen_egyptian_pantheon_adherent_plural:0 "Apophics"
  fallen_egyptian_pantheon_desc:0 "Apophics must dominate all. All in the end must die, this Apophis teaches to all the gods in his pantheon. Thus the gods of Apophis will ride into the fields of the weak and the ignorant, sweeping them away with such fury as the dim the light of Ra himself."
 
- #Persian Faith
+ # Persian Faith
  pure_persian_pantheon:0 "Ahura Pantheon"
  pure_persian_pantheon_adj:0 "Ahura Mazda"
  pure_persian_pantheon_adherent:0 "Ahura"
@@ -107,7 +107,7 @@
  fallen_persian_pantheon_adherent_plural:0 "Daevas"
  fallen_persian_pantheon_desc:0 "Angra Mainyu is the corrupted brother of Ahura Mazda. With the gods underneath him, the Daeva, he seeks to seek destruction and tear down all that his brother has built."
 
- #African Faith
+ # African Faith
  pure_african_pantheon:0 "Orishas Pantheon"
  pure_african_pantheon_adj:0 "Orishas"
  pure_african_pantheon_adherent:0 "Orisha"

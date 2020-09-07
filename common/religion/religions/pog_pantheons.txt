@@ -6,294 +6,291 @@ pantheon_pure_religion = {
     doctrine = divine_hostility_doctrine
 
     #Main Group
-    doctrine = doctrine_spiritual_head
-    doctrine = doctrine_gender_male_dominated
-    doctrine = doctrine_pluralism_righteous
+    doctrine = doctrine_temporal_head
+    doctrine = doctrine_gender_equal
+    doctrine = doctrine_pluralism_fundamentalist
     doctrine = doctrine_theocracy_temporal
 
     #Marriage
-    doctrine = doctrine_monogamy
-    doctrine = doctrine_divorce_approval
+    doctrine = doctrine_polygamy
+    doctrine = doctrine_divorce_allowed
     doctrine = doctrine_bastardry_legitimization
-    doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+    doctrine = doctrine_consanguinity_unrestricted
 
     #Crimes
-    doctrine = doctrine_homosexuality_shunned
-    doctrine = doctrine_adultery_men_shunned
+    doctrine = doctrine_homosexuality_accepted
+    doctrine = doctrine_adultery_men_crime
     doctrine = doctrine_adultery_women_crime
-    doctrine = doctrine_kinslaying_close_kin_crime
+    doctrine = doctrine_kinslaying_crime
     doctrine = doctrine_deviancy_crime
     doctrine = doctrine_witchcraft_crime
 
     #Clerical Functions
     doctrine = doctrine_clerical_function_taxation
-    doctrine = doctrine_clerical_gender_male_only
-    doctrine = doctrine_clerical_marriage_disallowed
+    doctrine = doctrine_clerical_gender_either
+    doctrine = doctrine_clerical_marriage_allowed
     doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 
     custom_faith_icons = {
         custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
     }
 
-
-    localization = {
-        #HighGod
-        HighGodName = pantheon_abrahamic_high_god_name
-        HighGodNamePossessive = pantheon_abrahamic_high_god_name_possessive
-        HighGodNameSheHe = CHARACTER_SHEHE_HE
-        HighGodHerselfHimself = CHARACTER_HIMSELF
-        HighGodHerHis = CHARACTER_HERHIS_HIS
-        HighGodNameAlternate = pantheon_abrahamic_high_god_name_alternate
-        HighGodNameAlternatePossessive = pantheon_abrahamic_high_god_name_alternate_possessive
-
-        #HealthGod
-        HealthGodName = pantheon_abrahamic_health_god_name
-        HealthGodNamePossessive = pantheon_abrahamic_health_god_name_possessive
-        HealthGodSheHe = CHARACTER_SHEHE_HE
-        HealthGodHerHis = CHARACTER_HERHIS_HIS
-        HealthGodHerHim = CHARACTER_HERHIM_HIM
-
-        #FertilityGod
-        FertilityGodName = pantheon_abrahamic_fertility_god_name
-        FertilityGodNamePossessive = pantheon_abrahamic_fertility_god_name_possessive
-        FertilityGodSheHe = CHARACTER_SHEHE_HE
-        FertilityGodHerHis = CHARACTER_HERHIS_HIS
-        FertilityGodHerHim = CHARACTER_HERHIM_HIM
-
-        #WealthGod
-        WealthGodName = pantheon_abrahamic_wealth_god_name
-        WealthGodNamePossessive = pantheon_abrahamic_wealth_god_name_possessive
-        WealthGodSheHe = CHARACTER_SHEHE_HE
-        WealthGodHerHis = CHARACTER_HERHIS_HIS
-        WealthGodHerHim = CHARACTER_HERHIM_HIM
-
-        #HouseholdGod
-        HouseholdGodName = pantheon_abrahamic_household_god_name
-        HouseholdGodNamePossessive = pantheon_abrahamic_household_god_name_possessive
-        HouseholdGodSheHe = CHARACTER_SHEHE_HE
-        HouseholdGodHerHis = CHARACTER_HERHIS_HIS
-        HouseholdGodHerHim = CHARACTER_HERHIM_HIM
-
-        #FateGod
-        FateGodName = pantheon_abrahamic_fate_god_name
-        FateGodNamePossessive = pantheon_abrahamic_fate_god_name_possessive
-        FateGodSheHe = CHARACTER_SHEHE_HE
-        FateGodHerHis = CHARACTER_HERHIS_HIS
-        FateGodHerHim = CHARACTER_HERHIM_HIM
-
-        #KnowledgeGod
-        KnowledgeGodName = pantheon_abrahamic_knowledge_god_name
-        KnowledgeGodNamePossessive = pantheon_abrahamic_knowledge_god_name_possessive
-        KnowledgeGodSheHe = CHARACTER_SHEHE_HE
-        KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
-        KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
-
-        #WarGod
-        WarGodName = pantheon_abrahamic_war_god_name
-        WarGodNamePossessive = pantheon_abrahamic_war_god_name_possessive
-        WarGodSheHe = CHARACTER_SHEHE_HE
-        WarGodHerHis = CHARACTER_HERHIS_HIS
-        WarGodHerHim = CHARACTER_HERHIM_HIM
-
-        #TricksterGod
-        TricksterGodName = pantheon_abrahamic_trickster_god_name
-        TricksterGodNamePossessive = pantheon_abrahamic_trickster_god_name_possessive
-        TricksterGodSheHe = CHARACTER_SHEHE_HE
-        TricksterGodHerHis = CHARACTER_HERHIS_HIS
-        TricksterGodHerHim = CHARACTER_HERHIM_HIM
-
-        #NightGod
-        NightGodName = pantheon_abrahamic_night_god_name
-        NightGodNamePossessive = pantheon_abrahamic_night_god_name_possessive
-        NightGodSheHe = CHARACTER_SHEHE_HE
-        NightGodHerHis = CHARACTER_HERHIS_HIS
-        NightGodHerHim = CHARACTER_HERHIM_HIM
-
-        #WaterGod
-        WaterGodName = pantheon_abrahamic_water_god_name
-        WaterGodNamePossessive = pantheon_abrahamic_water_god_name_possessive
-        WaterGodSheHe = CHARACTER_SHEHE_HE
-        WaterGodHerHis = CHARACTER_HERHIS_HIS
-        WaterGodHerHim = CHARACTER_HERHIM_HIM
-
-        PantheonTerm = pantheon_abrahamic_the_gods
-        PantheonTermHasHave = pantheon_term_have
-        GoodGodNames = { hellenism_good_god_poseidon hellenism_good_god_athena hellenism_good_god_ares hellenism_good_god_hera hellenism_good_god_apollo hellenism_good_god_artemis hellenism_good_god_hermes hellenism_good_god_aphrodite }
-        DevilName = hellenism_devil_name
-        DevilNamePossessive = hellenism_devil_name_possessive
-        DevilSheHe = CHARACTER_SHEHE_HE
-        DevilHerHis = CHARACTER_HERHIS_HIS
-        DevilHerselfHimself = CHARACTER_HIMSELF
-        EvilGodNames = { hellenism_evil_god_menoetius hellenism_evil_god_erinyes }
-        HouseOfWorship = paganism_house_of_worship
-        HouseOfWorshipPlural = paganism_house_of_worship_plural
-        ReligiousSymbol = hellenism_religious_symbol
-        ReligiousText = hellenism_religious_text
-        ReligiousHeadName = hellenism_religious_head_title
-        ReligiousHeadTitleName = dualism_religious_head_title_name
-        DevoteeMale = pantheon_abrahamic_devotee
-        DevoteeMalePlural = pantheon_abrahamic_devoteeplural
-        DevoteeFemale = pantheon_abrahamic_devotee
-        DevoteeFemalePlural = pantheon_abrahamic_devoteeplural
-        DevoteeNeuter = pantheon_abrahamic_devotee
-        DevoteeNeuterPlural = pantheon_abrahamic_devoteeplural
-        PriestMale = pantheon_abrahamic_priest_male
-        PriestMalePlural = pantheon_abrahamic_priest_male_plural
-        PriestFemale = pantheon_abrahamic_priest_female
-        PriestFemalePlural = pantheon_abrahamic_priest_female_plural
-        PriestNeuter = pantheon_abrahamic_priest_male
-        PriestNeuterPlural = pantheon_abrahamic_priest_male_plural
-        AltPriestTermPlural = pantheon_abrahamic_priest_alternate_plural
-        BishopMale = pantheon_abrahamic_bishop_male
-        BishopMalePlural = pantheon_abrahamic_bishop_male_plural
-        BishopFemale = pantheon_abrahamic_priest_female
-        BishopFemalePlural = pantheon_abrahamic_priest_female_plural
-        BishopNeuter = pantheon_abrahamic_priest_male
-        BishopNeuterPlural = pantheon_abrahamic_priest_male_plural
-        DivineRealm = pantheon_abrahamic_divine_realm
-        PositiveAfterLife = pantheon_abrahamic_death_deity_name
-        NegativeAfterLife = pantheon_abrahamic_death_deity_name
-        DeathDeityName = pantheon_abrahamic_death_deity_name
-        DeathDeityNamePossessive = pantheon_abrahamic_death_deity_name_possessive
-        DeathDeitySheHe = CHARACTER_SHEHE_HE
-        DeathDeityHerHis = CHARACTER_HERHIS_HIS
-        WitchGodName = hellenism_witchgodname_hekate
-        WitchGodHerHis = CHARACTER_HERHIS_HER
-        WitchGodSheHe = CHARACTER_SHEHE_HE
-        WitchGodHerHim = CHARACTER_HERHIM_HER
-        WitchGodMistressMaster = mistress
-        WitchGodMotherFather = mother
-
-        GHWName = ghw_crusade
-        GHWNamePlural = ghw_crusades
+    traits = {
+        virtues = { forgiving compassionate humble generous honest }
+        sins = { vengeful sadistic wrathful arrogant deceitful}
     }
 
     faiths = {
         pure_abrahamic_pantheon = {
-            color = { 0.6 0.1 0.1 }
+            color = { 1.0 1.0 1.0 }
             graphical_faith = "catholic_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            localization = {
+                #HighGod
+                HighGodName = pantheon_pure_abrahamic_high_god_name
+                HighGodNamePossessive = pantheon_pure_abrahamic_high_god_name_possessive
+                HighGodNameSheHe = CHARACTER_SHEHE_HE
+                HighGodHerselfHimself = CHARACTER_HIMSELF
+                HighGodHerHis = CHARACTER_HERHIS_HIS
+                HighGodNameAlternate = pantheon_pure_abrahamic_high_god_name_alternate
+                HighGodNameAlternatePossessive = pantheon_pure_abrahamic_high_god_name_alternate_possessive
 
-            doctrine = tenet_astrology
+                #HealthGod
+                HealthGodName = pantheon_pure_abrahamic_health_god_name
+                HealthGodNamePossessive = pantheon_pure_abrahamic_health_god_name_possessive
+                HealthGodSheHe = CHARACTER_SHEHE_HE
+                HealthGodHerHis = CHARACTER_HERHIS_HIS
+                HealthGodHerHim = CHARACTER_HERHIM_HIM
+
+                #FertilityGod
+                FertilityGodName = pantheon_pure_abrahamic_fertility_god_name
+                FertilityGodNamePossessive = pantheon_pure_abrahamic_fertility_god_name_possessive
+                FertilityGodSheHe = CHARACTER_SHEHE_HE
+                FertilityGodHerHis = CHARACTER_HERHIS_HIS
+                FertilityGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WealthGod
+                WealthGodName = pantheon_pure_abrahamic_wealth_god_name
+                WealthGodNamePossessive = pantheon_pure_abrahamic_wealth_god_name_possessive
+                WealthGodSheHe = CHARACTER_SHEHE_HE
+                WealthGodHerHis = CHARACTER_HERHIS_HIS
+                WealthGodHerHim = CHARACTER_HERHIM_HIM
+
+                #HouseholdGod
+                HouseholdGodName = pantheon_pure_abrahamic_household_god_name
+                HouseholdGodNamePossessive = pantheon_pure_abrahamic_household_god_name_possessive
+                HouseholdGodSheHe = CHARACTER_SHEHE_HE
+                HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+                HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+                #FateGod
+                FateGodName = pantheon_pure_abrahamic_fate_god_name
+                FateGodNamePossessive = pantheon_pure_abrahamic_fate_god_name_possessive
+                FateGodSheHe = CHARACTER_SHEHE_HE
+                FateGodHerHis = CHARACTER_HERHIS_HIS
+                FateGodHerHim = CHARACTER_HERHIM_HIM
+
+                #KnowledgeGod
+                KnowledgeGodName = pantheon_pure_abrahamic_knowledge_god_name
+                KnowledgeGodNamePossessive = pantheon_pure_abrahamic_knowledge_god_name_possessive
+                KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+                KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+                KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WarGod
+                WarGodName = pantheon_pure_abrahamic_war_god_name
+                WarGodNamePossessive = pantheon_pure_abrahamic_war_god_name_possessive
+                WarGodSheHe = CHARACTER_SHEHE_HE
+                WarGodHerHis = CHARACTER_HERHIS_HIS
+                WarGodHerHim = CHARACTER_HERHIM_HIM
+
+                #TricksterGod
+                TricksterGodName = pantheon_pure_abrahamic_trickster_god_name
+                TricksterGodNamePossessive = pantheon_pure_abrahamic_trickster_god_name_possessive
+                TricksterGodSheHe = CHARACTER_SHEHE_HE
+                TricksterGodHerHis = CHARACTER_HERHIS_HIS
+                TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+                #NightGod
+                NightGodName = pantheon_pure_abrahamic_night_god_name
+                NightGodNamePossessive = pantheon_pure_abrahamic_night_god_name_possessive
+                NightGodSheHe = CHARACTER_SHEHE_HE
+                NightGodHerHis = CHARACTER_HERHIS_HIS
+                NightGodHerHim = CHARACTER_HERHIM_HIM
+
+                #WaterGod
+                WaterGodName = pantheon_pure_abrahamic_water_god_name
+                WaterGodNamePossessive = pantheon_pure_abrahamic_water_god_name_possessive
+                WaterGodSheHe = CHARACTER_SHEHE_HE
+                WaterGodHerHis = CHARACTER_HERHIS_HIS
+                WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+                PantheonTerm = pantheon_pure_abrahamic_the_gods
+                PantheonTermHasHave = pantheon_term_have
+                GoodGodNames = { pure_god_cassiel pure_god_seraph pure_god_gabriel pure_god_michael pure_god_zadkiel }
+                DevilName = pure_abrahamic_devil_name
+                DevilNamePossessive = pure_abrahamic_devil_name_possessive
+                DevilSheHe = CHARACTER_SHEHE_HE
+                DevilHerHis = CHARACTER_HERHIS_HIS
+                DevilHerselfHimself = CHARACTER_HIMSELF
+                EvilGodNames = {  }
+                HouseOfWorship = pantheon_pure_abrahamic_house_of_worship
+                HouseOfWorshipPlural = pantheon_pure_abrahamic_house_of_worship_plural
+                ReligiousSymbol = pantheon_pure_abrahamic_religious_symbol
+                ReligiousText = pantheon_pure_abrahamic_religious_text
+                ReligiousHeadName = pantheon_pure_abrahamic_religious_head_title
+                ReligiousHeadTitleName = pure_abrahamic_religious_head_title_name
+                DevoteeMale = pantheon_pure_abrahamic_devotee
+                DevoteeMalePlural = pantheon_pure_abrahamic_devoteeplural
+                DevoteeFemale = pantheon_pure_abrahamic_devotee
+                DevoteeFemalePlural = pantheon_pure_abrahamic_devoteeplural
+                DevoteeNeuter = pantheon_pure_abrahamic_devotee
+                DevoteeNeuterPlural = pantheon_pure_abrahamic_devoteeplural
+                PriestMale = pantheon_pure_abrahamic_priest_male
+                PriestMalePlural = pantheon_pure_abrahamic_priest_male_plural
+                PriestFemale = pantheon_pure_abrahamic_priest_female
+                PriestFemalePlural = pantheon_pure_abrahamic_priest_female_plural
+                PriestNeuter = pantheon_pure_abrahamic_priest_male
+                PriestNeuterPlural = pantheon_pure_abrahamic_priest_male_plural
+                AltPriestTermPlural = pantheon_pure_abrahamic_priest_alternate_plural
+                BishopMale = pantheon_pure_abrahamic_bishop_male
+                BishopMalePlural = pantheon_pure_abrahamic_bishop_male_plural
+                BishopFemale = pantheon_pure_abrahamic_priest_female
+                BishopFemalePlural = pantheon_pure_abrahamic_priest_female_plural
+                BishopNeuter = pantheon_pure_abrahamic_priest_male
+                BishopNeuterPlural = pantheon_pure_abrahamic_priest_male_plural
+                DivineRealm = pantheon_pure_abrahamic_divine_realm
+                PositiveAfterLife = pantheon_pure_abrahamic_death_deity_name
+                NegativeAfterLife = pantheon_pure_abrahamic_death_deity_name
+                DeathDeityName = pantheon_pure_abrahamic_death_deity_name
+                DeathDeityNamePossessive = pantheon_pure_abrahamic_death_deity_name_possessive
+                DeathDeitySheHe = CHARACTER_SHEHE_HE
+                DeathDeityHerHis = CHARACTER_HERHIS_HIS
+                WitchGodName = hellenism_witchgodname_hekate
+                WitchGodHerHis = CHARACTER_HERHIS_HER
+                WitchGodSheHe = CHARACTER_SHEHE_HE
+                WitchGodHerHim = CHARACTER_HERHIM_HER
+                WitchGodMistressMaster = mistress
+                WitchGodMotherFather = mother
+
+                GHWName = ghw_crusade
+                GHWNamePlural = ghw_crusades
+            }
+
+
+            holy_site = jerusalem
+            holy_site = rome
+            holy_site = alexandria
+            holy_site = antioch
+
+            doctrine = tenet_legalism
             doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_asceticism
         }
         pure_celtic_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 0.0 0.4 0.0 }
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = armagh
+            holy_site = iona
+            holy_site = kent
+            holy_site = cologne
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_polyamory
+            doctrine = tenet_ritual_celebrations
+            doctrine = tenet_sanctity_of_nature
         }
         pure_slavic_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 0.4 0.2 0.2 }
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = kiev
+            holy_site = novgorod
+            holy_site = barlad
+            holy_site = plock
 
-            doctrine = tenet_astrology
             doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_ritual_cannibalism
+            doctrine = tenet_unrelenting_faith
         }
         pure_norse_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 0.8 0.2 0.1 }
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = uppsala
+            holy_site = lejre
+            holy_site = paderborn
+            holy_site = zeeland
+            holy_site = ranaheim
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_warmonger
+            doctrine = tenet_ritual_hospitality
+            doctrine = tenet_pursuit_of_power
         }
         pure_eastern_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 1.0 1.0 0.1 }
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = khotan
+            holy_site = balkh
+            holy_site = lhasa
+            holy_site = purang
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
+            doctrine = tenet_asceticism
+            doctrine = tenet_consolamentum
             doctrine = tenet_esotericism
         }
         pure_hindu_pantheon = {
             color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = varanasi
+            holy_site = ayodhya
+            holy_site = mathura
+            holy_site = haridwar
+            holy_site = dwarka
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_monasticism
+            doctrine = tenet_unreformed_syncretism
+            doctrine = tenet_reincarnation
         }
         pure_egyptian_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 1.0 1.0 0.1 }
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
             holy_site = alexandria
             holy_site = carthage
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_carnal_exaltation
+            doctrine = tenet_tax_nonbelievers
+            doctrine = tenet_adaptive
         }
         pure_persian_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 0.8 0.3 1.0 }
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = yazd
+            holy_site = nok_kundi
+            holy_site = takht-i-sangin
+            holy_site = takht-e_soleyman
+            holy_site = ushi-darena
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_human_sacrifice
+            doctrine = tenet_sacred_childbirth
+            doctrine = tenet_legalism
         }
         pure_african_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 1.0 0.7 0.2 }
+            graphical_faith = "african_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = bono
+            holy_site = kumasi
+            holy_site = ife
+            holy_site = nikki
 
-            doctrine = tenet_astrology
+            doctrine = tenet_sanctity_of_nature
             doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_astrology
         }
     }
 }
@@ -335,6 +332,10 @@ pantheon_fallen_religion = {
         custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
     }
 
+    traits = {
+        sins = { forgiving compassionate humble generous honest }
+        virtues = { vengeful sadistic wrathful arrogant deceitful}
+    }
 
     localization = {
         #HighGod
@@ -470,129 +471,122 @@ pantheon_fallen_religion = {
 
     faiths = {
         fallen_abrahamic_pantheon = {
-            color = { 0.6 0.1 0.1 }
+            color = { 0.0 0.0 0.0 }
             graphical_faith = "catholic_gfx"
 
-            holy_site = athens
-            holy_site = sparta
+            holy_site = jerusalem
+            holy_site = rome
             holy_site = alexandria
-            holy_site = carthage
+            holy_site = antioch
 
-            doctrine = tenet_astrology
+            doctrine = tenet_legalism
             doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_asceticism
         }
         fallen_celtic_pantheon = {
-            color = { 0.6 0.1 0.1 }
+            color = { 0.0 0.4 0.0 }
             graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = armagh
+            holy_site = iona
+            holy_site = kent
+            holy_site = cologne
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_polyamory
+            doctrine = tenet_ritual_celebrations
+            doctrine = tenet_sanctity_of_nature
         }
         fallen_slavic_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 0.4 0.2 0.2 }
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = kiev
+            holy_site = novgorod
+            holy_site = barlad
+            holy_site = plock
 
-            doctrine = tenet_astrology
             doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_ritual_cannibalism
+            doctrine = tenet_unrelenting_faith
         }
         fallen_norse_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 0.8 0.2 0.1 }
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = uppsala
+            holy_site = lejre
+            holy_site = paderborn
+            holy_site = zeeland
+            holy_site = ranaheim
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_warmonger
+            doctrine = tenet_ritual_hospitality
+            doctrine = tenet_pursuit_of_power
         }
         fallen_eastern_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 1.0 1.0 0.1 }
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = khotan
+            holy_site = balkh
+            holy_site = lhasa
+            holy_site = purang
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
+            doctrine = tenet_asceticism
+            doctrine = tenet_consolamentum
             doctrine = tenet_esotericism
         }
         fallen_hindu_pantheon = {
             color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = varanasi
+            holy_site = ayodhya
+            holy_site = mathura
+            holy_site = haridwar
+            holy_site = dwarka
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_monasticism
+            doctrine = tenet_unreformed_syncretism
+            doctrine = tenet_reincarnation
         }
         fallen_egyptian_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 1.0 1.0 0.1 }
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
             holy_site = alexandria
             holy_site = carthage
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_carnal_exaltation
+            doctrine = tenet_tax_nonbelievers
+            doctrine = tenet_adaptive
         }
         fallen_persian_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 0.8 0.3 1.0 }
+            graphical_faith = "pagan_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = yazd
+            holy_site = nok_kundi
+            holy_site = takht-i-sangin
+            holy_site = takht-e_soleyman
+            holy_site = ushi-darena
 
-            doctrine = tenet_astrology
-            doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_human_sacrifice
+            doctrine = tenet_sacred_childbirth
+            doctrine = tenet_legalism
         }
         fallen_african_pantheon = {
-            color = { 0.6 0.1 0.1 }
-            graphical_faith = "catholic_gfx"
+            color = { 1.0 0.7 0.2 }
+            graphical_faith = "african_gfx"
 
-            holy_site = rome
-            holy_site = athens
-            holy_site = sparta
-            holy_site = alexandria
-            holy_site = carthage
+            holy_site = bono
+            holy_site = kumasi
+            holy_site = ife
+            holy_site = nikki
 
-            doctrine = tenet_astrology
+            doctrine = tenet_sanctity_of_nature
             doctrine = tenet_communal_identity
-            doctrine = tenet_esotericism
+            doctrine = tenet_astrology
         }
     }
 }
