@@ -1,0 +1,7 @@
+﻿l_russian:
+ pog_conception.0001.t:0 "Божественное Зачатие"
+ pog_conception.0001.desc:0 "Вот уже несколько месяцев я налаживаю отношения с [target.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)] и сейчас [target.GetSheHe] все готово! Я навещаю [target.GetHerHim] Ранним вечером с похотью в глазах мы направляемся в спальню. Делаеть [target.GetSheHe] знать [target.GetSheHe] будет просыпаться утром, чтобы обнаружить зачатие божественного ребенка?"
+ pog_conception.0001.a:0 "Мы лежим вместе"
+ pog_conception.0001.a.tt:0 "Я провела замечательный вечер с [target.GetHerHim] который  [target.GetSheHe]  запомнил навсегда. В конце концов, я бог!"
+
+
